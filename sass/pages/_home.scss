@@ -43,6 +43,18 @@ body {
     background-size: cover;
     overflow: hidden;
 
+    &__logo {
+        position: absolute;
+        left: 41%;
+        top: 2.5%;
+        background-image: url(images/logocopy.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 15%;
+        height: 19.5%;
+    }
+
     &__img {
         position: absolute;
         top: 0;

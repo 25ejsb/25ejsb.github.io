@@ -65,6 +65,7 @@ $transition-time: .4s;
         transform: translate(-50%, -50%);
         text-align: center;
         color: white;
+        text-transform: uppercase;
         width: 70%;
         height: 10%;
         z-index: 999;
@@ -262,10 +263,10 @@ $transition-time: .4s;
     display: inline-block;
     font-size: 2.25rem;
     @include respond(big-desktop) {
-        font-size: 2.75rem;
+        font-size: 2.15rem;
     }
     @include respond(tab-land) {
-        font-size: 2.5rem;
+        font-size: 2.45rem;
     }
     @include respond(tab-port) {
         font-size: 2.25rem;
