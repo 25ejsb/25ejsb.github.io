@@ -4,17 +4,7 @@
     overflow: hidden;
     background-color: white;
     z-index: 1;
-    background-image: linear-gradient(rgba($black, 0.7), rgba($black, 0.1)), url(images/header7.jpg);
-    @include respond(tab-land) {
-        background-image: transparent;
-    }
-    @include respond(tab-port) {
-        background-image: transparent;
-    }
-    @include respond(phone) {
-        background-image: transparent;
-    }
-    background-attachment: fixed;
+    background-image: transparent;
     background-size: 100% 100%;
     background-position: center;
     &__mobile-bg {
