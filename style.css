@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+header, .about-section, footer, .contact-section {
+  z-index: 2;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
