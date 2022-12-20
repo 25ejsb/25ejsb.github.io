@@ -3,7 +3,8 @@
     height: 300vh;
     overflow: hidden;
     background-color: white;
-    background-image: linear-gradient(rgba($black, 0.7), rgba($black, 0.1)), url(images/header7.jpg);
+    background-image: transparent;
+//     background-image: linear-gradient(rgba($black, 0.7), rgba($black, 0.1)), url(images/header7.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
     background-position: center;
