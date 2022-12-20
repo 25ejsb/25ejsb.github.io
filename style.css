@@ -1626,7 +1626,6 @@ body {
   z-index: 2;
   background-color: rgb(30, 30, 30);
   overflow: hidden;
-  background-color: white;
 }
 .contact-section__background {
   position: absolute;
