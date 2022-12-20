@@ -3,6 +3,7 @@
     overflow: hidden;
     height: 30vh;
     background-color: rgb(20, 20, 20);
+    z-index: 2;
     &__copyright {
         font-size: 2.25rem;
         @include respond(big-desktop) {

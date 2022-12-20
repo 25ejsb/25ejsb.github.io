@@ -1,6 +1,7 @@
 .contact-section {
     height: 100vh;
     position: relative;
+    z-index: 2;
     background-color: $dark;
     overflow: hidden;
     &__background {
