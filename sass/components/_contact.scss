@@ -75,11 +75,10 @@
         }
         height: 70%;
         &--name {
-            position: absolute;
-            left: 10%;
-            top: 10%;
             width: 80%;
             height: 10%;
+            margin-top: 5rem;
+            margin-bottom: 3.5rem;
             border: none;
             border-bottom: 3px solid $light-gray;
             box-shadow: 0 0.5rem 1rem rgba($black, 0.5);
@@ -106,9 +105,6 @@
         }
 
         &--email {
-            position: absolute;
-            left: 10%;
-            top: 30%;
             width: 80%;
             height: 10%;
             border: none;
@@ -116,6 +112,7 @@
             box-shadow: 0 0.5rem 1rem rgba($black, 0.5);
             font-family: inherit;
             font-size: 2rem;
+            margin-bottom: 4rem;
             color: black;
             &:focus {
                 outline: none;
@@ -136,9 +133,6 @@
             }
         }
         &--message {
-            position: absolute;
-            left: 10%;
-            top: 50%;
             width: 80%;
             height: 23%;
             border: none;

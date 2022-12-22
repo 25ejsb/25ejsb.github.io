@@ -1812,11 +1812,10 @@ body {
   }
 }
 .contact-section__main--name {
-  position: absolute;
-  left: 10%;
-  top: 10%;
   width: 80%;
   height: 10%;
+  margin-top: 5rem;
+  margin-bottom: 3.5rem;
   border: none;
   border-bottom: 3px solid rgb(200, 200, 200);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
@@ -1842,9 +1841,6 @@ body {
   left: 0;
 }
 .contact-section__main--email {
-  position: absolute;
-  left: 10%;
-  top: 30%;
   width: 80%;
   height: 10%;
   border: none;
@@ -1852,6 +1848,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   font-family: inherit;
   font-size: 2rem;
+  margin-bottom: 4rem;
   color: black;
 }
 .contact-section__main--email:focus {
@@ -1872,9 +1869,6 @@ body {
   left: 0;
 }
 .contact-section__main--message {
-  position: absolute;
-  left: 10%;
-  top: 50%;
   width: 80%;
   height: 23%;
   border: none;
