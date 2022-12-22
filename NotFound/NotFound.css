@@ -12,24 +12,36 @@
     animation: fade1 10s infinite;
     background-size: 100% 100%;
     background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .error-bg--2 {
     background-image: linear-gradient(to right bottom, rgba(black, 0.9), rgba(black, 0.1)), url(images/header7.jpg);
     animation: fade2 10s infinite;
     background-size: 100% 100%;
-    background-position: center;
+    background-position: center;    
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .error-bg--3 {
     background-image: linear-gradient(to right bottom, rgba(black, 0.9), rgba(black, 0.1)), url(images/header3.jpg);
     animation: fade3 10s infinite;
     background-size: 100% 100%;
     background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .error-bg--4 {
     background-image: linear-gradient(to right bottom, rgba(black, 0.9), rgba(black, 0.1)), url(images/header4.jpg);
     animation: fade4 10s infinite;
     background-size: 100% 100%;
     background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 @keyframes fade-in {
