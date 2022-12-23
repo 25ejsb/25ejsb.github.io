@@ -263,7 +263,13 @@
                 @include respond(phone) {
                     left: 30%;
                 }
-                top: 25%;
+                top: 22.5%;
+                @include respond(tab-land) {
+                    top: 20%;
+                }
+                @include respond(phone) {
+                    top: 20%;
+                }
                 transform: translate(-50%, -200%);
                 transition: all .5s;
                 opacity: 0;
@@ -286,7 +292,13 @@
                 @include respond(phone) {
                     left: 30%;
                 }
-                top: 45%;
+                top: 40%;
+                @include respond(tab-land) {
+                    top: 37%;
+                }
+                @include respond(phone) {
+                    top: 37%;
+                }
                 transform: translate(-50%, -200%);
                 transition: all .5s;
                 opacity: 0;
@@ -309,7 +321,13 @@
                 @include respond(phone) {
                     left: 30%;
                 }
-                top: 79%;
+                top: 71%;
+                @include respond(tab-land) {
+                    top: 67%;
+                }
+                @include respond(phone) {
+                    top: 65%;
+                }
                 transform: translate(-50%, -200%);
                 transition: all .5s;
                 opacity: 0;
