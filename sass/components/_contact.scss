@@ -86,50 +86,51 @@
             font-size: 2rem;
             color: black;
             &:focus {
-                transition: all .5s;
-                outline: none;
-                &::placeholder {
-                    transition: all .5s;
-                    font-size: 1.1rem;
-                    color: $dark;
-                    top: 0;
-                    left: 0;
-                    color: $nice-red;
-                }
-            }
-            &::placeholder {
-                position: absolute;
-                top: 30%;
-                left: 0;
+                 transition: all .5s;
+                 outline: none;
+                 &::placeholder {
+                     transition: all .5s;
+                     font-size: 1.1rem;
+                     color: $dark;
+                     top: 0;
+                     left: 0;
+                     color: $nice-red;
+                 }
+             }
+             &::placeholder {
+                 position: absolute;
+                 top: 30%;
+                 left: 0;
             }
         }
 
-        &--email {
-            width: 80%;
-            height: 10%;
-            border: none;
-            border-bottom: 3px solid $light-gray;
-            box-shadow: 0 0.5rem 1rem rgba($black, 0.5);
-            font-family: inherit;
-            font-size: 2rem;
-            margin-bottom: 4rem;
-            color: black;
-            &:focus {
-                outline: none;
-                transition: all .5s;
+         &--email {
+             width: 80%;
+             height: 10%;
+             border: none;
+             border-bottom: 3px solid $light-gray;
+             box-shadow: 0 0.5rem 1rem rgba($black, 0.5);
+             font-family: inherit;
+             font-size: 2rem;
+             margin-bottom: 4rem;
+             color: black;
+             &:focus {
+                 outline: none;
+                 transition: all .5s;
+
                 &::placeholder {
-                    transition: all .5s;
-                    font-size: 1.1rem;
-                    color: $dark;
-                    top: 0;
-                    left: 0;
-                    color: $nice-red;
-                }
-            }
-            &::placeholder {
-                position: absolute;
-                top: 30%;
-                left: 0;
+                     transition: all .5s;
+                     font-size: 1.1rem;
+                     color: $dark;
+                     top: 0;
+                     left: 0;
+                     color: $nice-red;
+                 }
+             }
+             &::placeholder {
+                 position: absolute;
+                 top: 30%;
+                 left: 0;
             }
         }
         &--message {
@@ -250,6 +251,7 @@
                 font-size: 1.25rem;
             }
             &--1 {
+                display: none;
                 left: 25%;
                 @include respond(big-desktop) {
                     left: 25%;
@@ -276,9 +278,11 @@
                 &--open {
                     transform: translate(-50%, -50%);
                     opacity: 1;
+                    display: block;
                 }
             }
             &--2 {
+                display: none;
                 left: 25%;
                 @include respond(big-desktop) {
                     left: 25%;
@@ -305,10 +309,12 @@
                 &--open {
                     transform: translate(-50%, -50%);
                     opacity: 1;
+                    display: block;
                 }
             }
             &--3 {
                 left: 25%;
+                display: none;
                 @include respond(big-desktop) {
                     left: 25%;
                 }
@@ -334,6 +340,7 @@
                 &--open {
                     transform: translate(-50%, -50%);
                     opacity: 1;
+                    display: block;
                 }
             }
         }
@@ -354,18 +361,18 @@
             font-size: 4rem;
         }
         position: absolute;
-        left: 30%;
+        left: 32.5%;
         @include respond(big-desktop) {
-            left: 35%;
+            left: 37.5%;
         }
         @include respond(tab-land) {
-            left: 30%;
+            left: 32.5%;
         }
         @include respond(tab-port) {
-            left: 29.5%;
+            left: 31.5%;
         }
         @include respond(phone) {
-            left: 29.5%;
+            left: 34%;
         }
         top: 5%;
         background-image: linear-gradient(to right bottom, $nice-red, red);

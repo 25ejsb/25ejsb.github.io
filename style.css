@@ -2027,6 +2027,7 @@ body {
   }
 }
 .contact-section__main--field--1 {
+  display: none;
   left: 25%;
   top: 22.5%;
   transform: translate(-50%, -200%);
@@ -2066,8 +2067,10 @@ body {
 .contact-section__main--field--1--open {
   transform: translate(-50%, -50%);
   opacity: 1;
+  display: block;
 }
 .contact-section__main--field--2 {
+  display: none;
   left: 25%;
   top: 40%;
   transform: translate(-50%, -200%);
@@ -2107,9 +2110,11 @@ body {
 .contact-section__main--field--2--open {
   transform: translate(-50%, -50%);
   opacity: 1;
+  display: block;
 }
 .contact-section__main--field--3 {
   left: 25%;
+  display: none;
   top: 71%;
   transform: translate(-50%, -200%);
   transition: all 0.5s;
@@ -2148,11 +2153,12 @@ body {
 .contact-section__main--field--3--open {
   transform: translate(-50%, -50%);
   opacity: 1;
+  display: block;
 }
 .contact-section__header {
   font-size: 7rem;
   position: absolute;
-  left: 30%;
+  left: 32.5%;
   top: 5%;
   background-image: linear-gradient(to right bottom, #e35260, red);
   -webkit-background-clip: text;
@@ -2181,22 +2187,22 @@ body {
 }
 @media only screen and (min-width: 75em) {
   .contact-section__header {
-    left: 35%;
+    left: 37.5%;
   }
 }
 @media only screen and (max-width: 61.9em) {
   .contact-section__header {
-    left: 30%;
+    left: 32.5%;
   }
 }
 @media only screen and (max-width: 48em) {
   .contact-section__header {
-    left: 29.5%;
+    left: 31.5%;
   }
 }
 @media only screen and (max-width: 36em) {
   .contact-section__header {
-    left: 29.5%;
+    left: 34%;
   }
 }
 
