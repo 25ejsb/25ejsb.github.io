@@ -85,23 +85,23 @@
             font-family: inherit;
             font-size: 2rem;
             color: black;
-            &:focus {
-                 transition: all .5s;
-                 outline: none;
-                 &::placeholder {
-                     transition: all .5s;
-                     font-size: 1.1rem;
-                     color: $dark;
-                     top: 0;
-                     left: 0;
-                     color: $nice-red;
-                 }
-             }
-             &::placeholder {
-                 position: absolute;
-                 top: 30%;
-                 left: 0;
-            }
+            // &:focus {
+            //      transition: all .5s;
+            //      outline: none;
+            //      &::placeholder {
+            //          transition: all .5s;
+            //          font-size: 1.1rem;
+            //          color: $dark;
+            //          top: 0;
+            //          left: 0;
+            //          color: $nice-red;
+            //      }
+            //  }
+            //  &::placeholder {
+            //      position: absolute;
+            //      top: 30%;
+            //      left: 0;
+            // }
         }
 
          &--email {
@@ -114,24 +114,24 @@
              font-size: 2rem;
              margin-bottom: 4rem;
              color: black;
-             &:focus {
-                 outline: none;
-                 transition: all .5s;
+            //  &:focus {
+            //      outline: none;
+            //      transition: all .5s;
 
-                &::placeholder {
-                     transition: all .5s;
-                     font-size: 1.1rem;
-                     color: $dark;
-                     top: 0;
-                     left: 0;
-                     color: $nice-red;
-                 }
-             }
-             &::placeholder {
-                 position: absolute;
-                 top: 30%;
-                 left: 0;
-            }
+            //     &::placeholder {
+            //          transition: all .5s;
+            //          font-size: 1.1rem;
+            //          color: $dark;
+            //          top: 0;
+            //          left: 0;
+            //          color: $nice-red;
+            //      }
+            //  }
+            //  &::placeholder {
+            //      position: absolute;
+            //      top: 30%;
+            //      left: 0;
+            // }
         }
         &--message {
             width: 80%;

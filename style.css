@@ -1838,23 +1838,6 @@ body {
   font-size: 2rem;
   color: black;
 }
-.contact-section__main--name:focus {
-  transition: all 0.5s;
-  outline: none;
-}
-.contact-section__main--name:focus::placeholder {
-  transition: all 0.5s;
-  font-size: 1.1rem;
-  color: rgb(30, 30, 30);
-  top: 0;
-  left: 0;
-  color: #e35260;
-}
-.contact-section__main--name::placeholder {
-  position: absolute;
-  top: 30%;
-  left: 0;
-}
 .contact-section__main--email {
   width: 80%;
   height: 10%;
@@ -1865,23 +1848,6 @@ body {
   font-size: 2rem;
   margin-bottom: 4rem;
   color: black;
-}
-.contact-section__main--email:focus {
-  outline: none;
-  transition: all 0.5s;
-}
-.contact-section__main--email:focus::placeholder {
-  transition: all 0.5s;
-  font-size: 1.1rem;
-  color: rgb(30, 30, 30);
-  top: 0;
-  left: 0;
-  color: #e35260;
-}
-.contact-section__main--email::placeholder {
-  position: absolute;
-  top: 30%;
-  left: 0;
 }
 .contact-section__main--message {
   width: 80%;
