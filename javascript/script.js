@@ -139,7 +139,7 @@ window.addEventListener("scroll", function(){
     function checkboxes() {
         const triggerBottom = window.innerHeight / 5 * 3.5
         const triggerBottomSection = window.innerHeight / 5 * 0
-        const triggerTopSection = window.innerHeight / 5 * -10.5
+        const triggerTopSection = window.innerHeight / 5 * -11.5
         image1.forEach(box => {
             const boxTop = box.getBoundingClientRect().top;
             if (boxTop < triggerBottom) {

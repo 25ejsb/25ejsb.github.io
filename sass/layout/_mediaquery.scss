@@ -20,3 +20,21 @@
         }
     }
 }
+
+@media only screen and (max-height: 61.9em) {
+    .testimonials-section__testimonial--para {
+        font-size: 1.15rem;
+    }
+}
+
+@media only screen and (max-height:48em) {
+    .testimonials-section__testimonial--para {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-height: 36em) {
+    .testimonials-section__testimonial--para {
+        font-size: 0.75rem;
+    }
+}

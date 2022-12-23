@@ -1,7 +1,7 @@
 .about-section {
     position: relative;
     background-color: black;
-    height: 200vh;
+    height: 160rem;
     z-index: 2;
     overflow: hidden;
     &__background {
@@ -86,18 +86,18 @@
                 font-size: 2rem;
             }
             position: absolute;
-            left: 42%;
+            left: 41%;
             @include respond(big-desktop) {
-                left: 40%;
+                left: 38%;
             }
             @include respond(tab-land) {
-                left: 44%;
+                left: 42.5%;
             }
             @include respond(tab-port) {
-                left: 47%;
+                left: 45.5%;
             }
             @include respond(phone) {
-                left: 52.5%;
+                left: 51%;
             }
             top: 65%;
             @include respond(tab-land) {
