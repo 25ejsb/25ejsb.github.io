@@ -1,7 +1,7 @@
 .about-section {
     position: relative;
     background-color: black;
-    height: 160rem;
+    height: 170rem;
     z-index: 2;
     overflow: hidden;
     &__background {
@@ -35,7 +35,13 @@
         background-image: url(images/adam.webp);
         background-size: 90% 90%;
         background-position: 50% 90%;
+        @include respond(phone) {
+            background-position: 50% 110%;
+        }
         clip-path: circle(40%);
+        @include respond(phone) {
+            clip-path: circle(30%);
+        }
         shape-outside: circle(55%);
         width: 20rem;
         height: 20rem;
@@ -47,7 +53,7 @@
             font-size: 5rem;
         }
         @include respond(tab-port) {
-            font-size: 4.5rem;
+            font-size: 4rem;
         }
         @include respond(phone) {
             font-size: 2.5rem;
@@ -175,6 +181,9 @@
         text-transform: uppercase;
         color: transparent;
         top: 50%;
+        @include respond(phone) {
+            top: 45%;
+        }
         width: 100%;
         transform: translate(-50%, -50%);
         &--2 {
@@ -325,7 +334,7 @@
             }
             @include respond(phone) {
                 top: 0;
-                left: 0;
+                left: -80%;
             }
             &:hover .about-section__houses--info {
                 filter: blur(0.3rem);
@@ -357,7 +366,7 @@
                 top: 0;
             }
             @include respond(phone) {
-                left: 0;
+                left: 80%;
                 top: 26%;
             }
             z-index: 2;
@@ -391,7 +400,7 @@
                 top: 40%;
             }
             @include respond(phone) {
-                left: 0;
+                left: -80%;
                 top: 52%;
             }
             &:hover .about-section__houses--info {
@@ -406,7 +415,7 @@
         &--price {
             position: absolute;
             width: 100%;
-            height: 27.5%;
+            height: 35.5%;
             left: 20%;
             top: -10%;
             font-size: 5rem;

@@ -161,6 +161,9 @@ $transition-time: .4s;
     &__profile {
         background-image: url(images/adam.webp);
         background-size: 100% 100%;
+        @include respond(phone) {
+            background-size: 100% 0%;
+        }
         background-position: 50% 98%;
         @include respond(tab-land) {
             background-position: 50% 95%;

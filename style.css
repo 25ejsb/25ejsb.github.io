@@ -522,6 +522,11 @@ body {
   top: 50%;
   z-index: 2;
 }
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__profile {
+    background-size: 100% 0%;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__profile {
     background-position: 50% 95%;
@@ -666,7 +671,7 @@ body {
 .about-section {
   position: relative;
   background-color: black;
-  height: 160rem;
+  height: 170rem;
   z-index: 2;
   overflow: hidden;
 }
@@ -709,6 +714,16 @@ body {
   height: 20rem;
   display: inline-block;
 }
+@media only screen and (max-width: 36em) {
+  .about-section__profile {
+    background-position: 50% 110%;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .about-section__profile {
+    clip-path: circle(30%);
+  }
+}
 .about-section__header {
   font-size: 6.5rem;
   font-family: inherit;
@@ -729,7 +744,7 @@ body {
 }
 @media only screen and (max-width: 48em) {
   .about-section__header {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 36em) {
@@ -895,6 +910,11 @@ body {
 @media only screen and (max-width: 36em) {
   .about-section__titlepara {
     font-size: 3.75rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .about-section__titlepara {
+    top: 45%;
   }
 }
 .about-section__titlepara--2 {
@@ -1092,7 +1112,7 @@ body {
 @media only screen and (max-width: 36em) {
   .about-section__houses--1 {
     top: 0;
-    left: 0;
+    left: -80%;
   }
 }
 .about-section__houses--1:hover .about-section__houses--info {
@@ -1133,7 +1153,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .about-section__houses--2 {
-    left: 0;
+    left: 80%;
     top: 26%;
   }
 }
@@ -1174,7 +1194,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .about-section__houses--3 {
-    left: 0;
+    left: -80%;
     top: 52%;
   }
 }
@@ -1189,7 +1209,7 @@ body {
 .about-section__houses--price {
   position: absolute;
   width: 100%;
-  height: 27.5%;
+  height: 35.5%;
   left: 20%;
   top: -10%;
   font-size: 5rem;
@@ -1838,6 +1858,9 @@ body {
   font-size: 2rem;
   color: black;
 }
+.contact-section__main--name:focus {
+  outline: none;
+}
 .contact-section__main--email {
   width: 80%;
   height: 10%;
@@ -1848,6 +1871,9 @@ body {
   font-size: 2rem;
   margin-bottom: 4rem;
   color: black;
+}
+.contact-section__main--email:focus {
+  outline: none;
 }
 .contact-section__main--message {
   width: 80%;
