@@ -443,7 +443,6 @@ body {
   border-radius: 0.6rem;
   color: white;
   transition: box-shadow 0.5s;
-  display: none;
   display: inline-block;
 }
 .scroll-to-frame__link:hover {
@@ -477,7 +476,6 @@ body {
   text-align: center;
   color: white;
   z-index: 999;
-  display: none;
 }
 .scroll-to-frame__link--testimonials {
   left: 25%;
@@ -526,7 +524,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__profile {
-    background-size: 100% 0%;
+    background-size: 100% 90%;
   }
 }
 @media only screen and (max-width: 61.9em) {
@@ -598,7 +596,7 @@ body {
   text-align: center;
   background-size: 100% 100%;
   background-position: center;
-  display: none;
+  display: inline-block;
   z-index: 2;
 }
 .scroll-to-frame__social--instagram {
@@ -652,7 +650,6 @@ body {
 .opened .scroll-to-frame__link {
   font-size: 3rem;
   transition: all 0.4s;
-  display: block;
   padding: 7rem 6rem;
 }
 @media only screen and (max-width: 36em) {
@@ -662,16 +659,13 @@ body {
 }
 .opened .scroll-to-frame__link--label {
   font-size: 2rem;
-  display: block;
 }
 .opened .scroll-to-frame__link--testimonials {
   font-size: 1.5rem;
-  display: block;
 }
 .opened .scroll-to-frame__social {
   width: 5rem;
   height: 5rem;
-  display: inline-block;
 }
 
 .about-section {

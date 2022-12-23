@@ -92,7 +92,6 @@ $transition-time: .4s;
         border-radius: 0.6rem;
         color: white;
         transition: box-shadow .5s;
-        display: none;
         &:hover {
             outline: none;
             box-shadow: 0 0.5rem 1rem rgba($black, 0.5);
@@ -125,7 +124,6 @@ $transition-time: .4s;
             text-align: center;
             color: white;
             z-index: 999;
-            display: none;
         }
 
         &--testimonials {
@@ -164,7 +162,7 @@ $transition-time: .4s;
         background-image: url(images/adam.webp);
         background-size: 100% 100%;
         @include respond(phone) {
-            background-size: 100% 0%;
+            background-size: 100% 90%;
         }
         background-position: 50% 98%;
         @include respond(tab-land) {
@@ -235,7 +233,7 @@ $transition-time: .4s;
         text-align: center;
         background-size: 100% 100%;
         background-position: center;
-        display: none;
+        display: inline-block;
         &--instagram {
             background-image: url(images/instagram.png);
         }
@@ -282,7 +280,6 @@ $transition-time: .4s;
     .scroll-to-frame__link {
         font-size: 3rem;
         transition: all $transition-time;
-        display: block;
         padding: 7rem 6rem;
         @include respond(phone) {
             width: 15%;
@@ -290,15 +287,12 @@ $transition-time: .4s;
     }
     .scroll-to-frame__link--label {
         font-size: 2rem;
-        display: block;
     }
     .scroll-to-frame__link--testimonials {
         font-size: 1.5rem;
-        display: block;
     }
     .scroll-to-frame__social {
         width: 5rem;
         height: 5rem;
-        display: inline-block;
     }
 }
