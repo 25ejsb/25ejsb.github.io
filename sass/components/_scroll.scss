@@ -34,16 +34,16 @@ $transition-time: .4s;
         border: none;
         transition: all .5s;
         @include respond(big-desktop) {
-            font-size: 6rem;
+            font-size: 5.5rem;
         }
         @include respond(tab-land) {
-            font-size: 4.5rem;
-        }
-        @include respond(tab-port) {
             font-size: 4rem;
         }
-        @include respond(phone) {
+        @include respond(tab-port) {
             font-size: 3.5rem;
+        }
+        @include respond(phone) {
+            font-size: 2.5rem;
         }
     }
 }

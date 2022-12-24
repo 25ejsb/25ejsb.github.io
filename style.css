@@ -379,22 +379,22 @@ body {
 }
 @media only screen and (min-width: 75em) {
   .scroll__text {
-    font-size: 6rem;
+    font-size: 5.5rem;
   }
 }
 @media only screen and (max-width: 61.9em) {
   .scroll__text {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll__text {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll__text {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -1671,6 +1671,7 @@ body {
   left: 2.5%;
   width: 100%;
   height: 100%;
+  z-index: -1;
   filter: blur(2px);
 }
 .contact-section__background--1 {
@@ -2152,9 +2153,8 @@ body {
 }
 .contact-section__header {
   font-size: 7rem;
-  position: absolute;
-  left: 32.5%;
-  top: 5%;
+  text-align: center;
+  margin-top: 3rem;
   background-image: linear-gradient(to right bottom, #e35260, red);
   -webkit-background-clip: text;
   color: transparent;
@@ -2178,26 +2178,6 @@ body {
 @media only screen and (max-width: 36em) {
   .contact-section__header {
     font-size: 4rem;
-  }
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__header {
-    left: 37.5%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__header {
-    left: 32.5%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__header {
-    left: 31.5%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__header {
-    left: 34%;
   }
 }
 

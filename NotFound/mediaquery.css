@@ -10,6 +10,9 @@
         font-size: 3.5rem;
         left: 39%;
     }
+    .logo {
+        width: 10%;
+    }
 }
 
 @media only screen and (max-width:61.9em) {
@@ -23,6 +26,9 @@
     .back-btn {
         font-size: 2.75rem;
         left: 36%;
+    }
+    .logo {
+        width: 12.5%;
     }
 }
 
@@ -38,6 +44,9 @@
         font-size: 2.5rem;
         left: 35%;
     }
+    .logo {
+        width: 15%;
+    }
 }
 
 @media only screen and (max-width:36em) {
@@ -51,5 +60,8 @@
     .back-btn {
         font-size: 2.25rem;
         left: 32%;
+    }
+    .logo {
+        width: 17.5%;
     }
 }

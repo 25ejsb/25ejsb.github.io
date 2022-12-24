@@ -29,6 +29,19 @@ body {
     box-sizing: border-box;
 }
 
+.logo {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    user-select: none;
+    left: 42.5%;
+    top: 5%;
+    background-image: url(../images/logo.png);
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 2;
+}
+
 .header {
     font-size: 7rem;
     text-align: center;
