@@ -5,17 +5,19 @@ var scrollBtn = document.getElementById("scroll");
 $(".header-section__headextra").css("animation-delay", "0.3s").addClass("animated lightSpeedIn");
 
 var send = document.getElementById("sendcontact");
+var thanks = document.querySelector(".contact-section__thanks");
 
 function sendEmail() {
     var tempParams = {
       from_name: document.getElementById("email").value,
-      to_name: "eitan.brochstein@icloud.com",
+      to_name: "adam@shulmanrealtor.com",
       message: document.getElementById("name").value + ", \n" + document.getElementById("email").value + ", \n" + document.getElementById("message").value
     };
   
     emailjs.send('service_t93tjtg', 'template_67wnjyd', tempParams, "e5QqTyM8AtPOxMClT").then(function(res){
       console.log("message success! " + res.status);
     });
+    thanks.classList.add("contact-section__thanks--active");
 };
 
 send.addEventListener("click", () => {

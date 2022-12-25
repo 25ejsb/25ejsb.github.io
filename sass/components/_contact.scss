@@ -339,4 +339,28 @@
         color: transparent;
         text-transform: uppercase;
     }
+
+    &__thanks {
+        background-image: linear-gradient(to right bottom, $light-green, $dark-green);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-top: 3rem;
+        font-size: 2rem;
+        @include respond(tab-land) {
+            font-size: 1.75rem;
+        }
+        @include respond(tab-port) {
+            font-size: 1.5rem;
+        }
+        @include respond(phone) {
+            font-size: 1.25rem;
+        }
+        opacity: 0;
+        transform: translate(0, -70%);
+        transition: all .5s;
+        &--active {
+            opacity: 1;
+            transform: translate(0%, 0%);
+        }
+    }
 }

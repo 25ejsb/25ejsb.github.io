@@ -2180,6 +2180,35 @@ body {
     font-size: 4rem;
   }
 }
+.contact-section__thanks {
+  background-image: linear-gradient(to right bottom, #34eb37, #2f9431);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 3rem;
+  font-size: 2rem;
+  opacity: 0;
+  transform: translate(0, -70%);
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 61.9em) {
+  .contact-section__thanks {
+    font-size: 1.75rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contact-section__thanks {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .contact-section__thanks {
+    font-size: 1.25rem;
+  }
+}
+.contact-section__thanks--active {
+  opacity: 1;
+  transform: translate(0%, 0%);
+}
 
 /* width */
 ::-webkit-scrollbar {
