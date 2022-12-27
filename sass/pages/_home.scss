@@ -125,7 +125,7 @@ body {
         transition: all .5s;
         display: block;
         @include respond(big-desktop) {
-            font-size: 5rem;
+            font-size: 4.5rem;
         }
         @include respond(tab-land) {
             font-size: 4.25rem;
