@@ -8,7 +8,8 @@ $transition-time: .4s;
     transform: translate(-50%, -50%);
     width: 7%;
     height: 8rem;
-    background-color: $light-gray;
+    background-image: linear-gradient(to right bottom, $light-gray, $dark-gray);
+    box-shadow: 0 2rem 2rem rgba($black, 0.5);
     clip-path: circle(40%);
     shape-outside: circle(55%);
     @include respond(tab-port) {

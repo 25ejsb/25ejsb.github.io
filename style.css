@@ -348,7 +348,8 @@ body {
   transform: translate(-50%, -50%);
   width: 7%;
   height: 8rem;
-  background-color: rgb(200, 200, 200);
+  background-image: linear-gradient(to right bottom, rgb(200, 200, 200), rgb(80, 80, 80));
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.5);
   clip-path: circle(40%);
   shape-outside: circle(55%);
   transition: all 0.5s;
@@ -1123,7 +1124,7 @@ body {
   transform: scale(1.4);
 }
 .about-section__houses--1:hover .about-section__houses--price {
-  top: 40%;
+  top: 50%;
   opacity: 1;
 }
 .about-section__houses--2 {
@@ -1165,7 +1166,7 @@ body {
   transform: scale(1.4);
 }
 .about-section__houses--2:hover .about-section__houses--price {
-  top: 40%;
+  top: 50%;
   opacity: 1;
 }
 .about-section__houses--3 {
@@ -1206,7 +1207,7 @@ body {
   transform: scale(1.4);
 }
 .about-section__houses--3:hover .about-section__houses--price {
-  top: 40%;
+  top: 50%;
   opacity: 1;
 }
 .about-section__houses--price {
@@ -1479,7 +1480,7 @@ body {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  left: 35%;
+  left: 37.5%;
 }
 @media only screen and (min-width: 75em) {
   .footer__header {
