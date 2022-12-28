@@ -136,6 +136,9 @@ const image2 = document.querySelectorAll(".about-section__image2");
 const testimonialSection = document.querySelectorAll(".testimonials-section");
 const contactSection = document.querySelectorAll(".contact-section");
 
+var aboutbg = document.querySelectorAll(".about-section__background");
+var singAboutBg = document.querySelector(".about-section__background");
+
 window.addEventListener("scroll", function(){
 
     function checkboxes() {
@@ -146,8 +149,10 @@ window.addEventListener("scroll", function(){
             const boxTop = box.getBoundingClientRect().top;
             if (boxTop < triggerBottom) {
                 box.classList.add("about-section__image1--open");
+                singAboutBg.style = "filter: blur(0.2rem)";
             } else {
                 box.classList.remove("about-section__image1--open");
+                singAboutBg.style = "filter: blur(0.3rem)";
             }
         });
         testimonialSection.forEach(box => {
@@ -168,6 +173,20 @@ window.addEventListener("scroll", function(){
                 box.classList.remove("about-section__image2--open");
             }
         });
+        aboutbg.forEach(box => {
+            const boxTop = box.getBoundingClientRect().top;
+            if (boxTop < triggerBottomSection) {
+                window.addEventListener("scroll", function(){
+                    let value = window.scrollY;
+                    box.style = "transform: scale(" + (value / 620) + ");";
+                });
+            }
+            else {
+                window.addEventListener("scroll", () => {
+                    box.style = "transform: scale(1)";
+                });
+            }
+        })
     }
     checkboxes();
 });

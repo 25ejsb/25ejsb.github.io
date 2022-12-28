@@ -512,8 +512,9 @@ body {
 }
 .scroll-to-frame__profile {
   background-image: url(images/adam.webp);
-  background-size: 100% 100%;
-  background-position: 50% 98%;
+  background-size: 90% 90%;
+  background-position: 50% 90%;
+  background-position: center;
   clip-path: circle(40%);
   shape-outside: circle(55%);
   position: absolute;
@@ -526,27 +527,19 @@ body {
   top: 50%;
   z-index: 2;
 }
-@media only screen and (max-width: 36em) {
-  .scroll-to-frame__profile {
-    background-size: 100% 90%;
-  }
-}
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__profile {
-    background-position: 50% 95%;
-    background-size: 100% 78%;
+    background-position: 50% 150%;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__profile {
-    background-position: 50% 90%;
-    background-size: 100% 74%;
+    background-position: 50% 200%;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__profile {
-    background-position: 50% 85%;
-    background-size: 100% 66%;
+    background-position: 50% 250%;
   }
 }
 @media only screen and (min-width: 75em) {
