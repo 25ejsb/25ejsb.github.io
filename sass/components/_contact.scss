@@ -11,7 +11,7 @@
         width: 100%;
         height: 100%;
         z-index: -1;
-        filter: blur(2px);
+        filter: blur(0.01rem);
         @mixin section-basics {
             border-radius: 0.4rem;
             height: 90%;

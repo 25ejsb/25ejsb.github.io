@@ -66,19 +66,19 @@ body {
         background-position: center;
         &--1 {
             background-image: linear-gradient(to right bottom, rgba($black, 0.9), rgba($black, 0.1)), url(images/header1.jpg);
-            animation: fade1 10s infinite;
+            animation: fade1 20s infinite;
         }
         &--2 {
             background-image: linear-gradient(to right bottom, rgba($black, 0.9), rgba($black, 0.1)), url(images/header7.jpg);
-            animation: fade2 10s infinite;
+            animation: fade2 20s infinite;
         }
         &--3 {
             background-image: linear-gradient(to right bottom, rgba($black, 0.9), rgba($black, 0.1)), url(images/header3.jpg);
-            animation: fade3 10s infinite;
+            animation: fade3 20s infinite;
         }
         &--4 {
             background-image: linear-gradient(to right bottom, rgba($black, 0.9), rgba($black, 0.1)), url(images/header4.jpg);
-            animation: fade4 10s infinite;
+            animation: fade4 20s infinite;
         }
     }
 

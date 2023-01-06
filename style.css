@@ -90,19 +90,19 @@ body {
 }
 .header-section__img--1 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(images/header1.jpg);
-  animation: fade1 10s infinite;
+  animation: fade1 20s infinite;
 }
 .header-section__img--2 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(images/header7.jpg);
-  animation: fade2 10s infinite;
+  animation: fade2 20s infinite;
 }
 .header-section__img--3 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(images/header3.jpg);
-  animation: fade3 10s infinite;
+  animation: fade3 20s infinite;
 }
 .header-section__img--4 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(images/header4.jpg);
-  animation: fade4 10s infinite;
+  animation: fade4 20s infinite;
 }
 .header-section__headtext {
   position: absolute;
@@ -346,6 +346,7 @@ body {
   left: 5%;
   top: 10%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
   width: 7%;
   height: 8rem;
   background-image: linear-gradient(to right bottom, rgb(200, 200, 200), rgb(80, 80, 80));
@@ -489,7 +490,7 @@ body {
   margin-right: 5rem;
 }
 .scroll-to-frame__frame {
-  background-color: rgb(30, 30, 30);
+  background-color: transparent;
   background-size: 100% 100%;
   background-position: center;
   width: 60%;
@@ -500,6 +501,7 @@ body {
   top: 80%;
   transform: translate(-50%, -50%);
   text-align: center;
+  overflow: hidden;
 }
 .scroll-to-frame__video {
   position: absolute;
@@ -617,6 +619,16 @@ body {
 .scroll-to-frame__social--facebook {
   background-image: url(images/facebook.png);
 }
+.scroll-to-frame__socialheader {
+  font-size: 0rem;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
 .scroll-to-frame__bottomtext {
   color: white;
   position: absolute;
@@ -625,6 +637,211 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
+}
+.scroll-to-frame__facebook-section {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.scroll-to-frame__facebook-section--picture {
+  background-image: linear-gradient(to right bottom, rgba(45, 156, 156, 0.4), rgba(0, 0, 230, 0.3)), url(images/adam2.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+.scroll-to-frame__facebook-section--bg {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/facebook.png);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.4;
+  display: block;
+  z-index: 2;
+  transition: all 0.5s;
+}
+.scroll-to-frame__facebook-section--title {
+  z-index: 3;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 6rem;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 61.9em) {
+  .scroll-to-frame__facebook-section--title {
+    font-size: 5.5rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .scroll-to-frame__facebook-section--title {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__facebook-section--title {
+    font-size: 4.5rem;
+  }
+}
+.scroll-to-frame__facebook-section--link {
+  z-index: 3;
+  background-image: linear-gradient(to right bottom, #2dcccc, #22d4d1);
+  color: transparent;
+  -webkit-background-clip: text;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.05rem;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 61.9em) {
+  .scroll-to-frame__facebook-section--link {
+    font-size: 1.65rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .scroll-to-frame__facebook-section--link {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__facebook-section--link {
+    font-size: 0.8rem;
+  }
+}
+.scroll-to-frame__facebook-section:hover .scroll-to-frame__facebook-section--bg {
+  transform: all 0.5s;
+  transform: rotate3d(0, 1, 0.5, 45deg);
+}
+.scroll-to-frame__facebook-section:hover .scroll-to-frame__facebook-section--picture {
+  transform: scale(1.3);
+}
+.scroll-to-frame__facebook-section:hover .scroll-to-frame__facebook-section--title {
+  opacity: 0;
+  transform: translate(-50%, 0);
+}
+.scroll-to-frame__facebook-section:hover .scroll-to-frame__facebook-section--link {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+.scroll-to-frame__instagram-section {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  top: 0;
+}
+.scroll-to-frame__instagram-section--picture {
+  background-image: linear-gradient(to right bottom, rgba(252, 3, 173, 0.4), rgba(245, 173, 20, 0.3)), url(images/adam3.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__instagram-section--picture {
+    background-size: 100% 80%;
+  }
+}
+.scroll-to-frame__instagram-section--bg {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/instagram.png);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.4;
+  display: block;
+  z-index: 2;
+  transition: all 0.5s;
+}
+.scroll-to-frame__instagram-section--title {
+  z-index: 3;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 6rem;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 61.9em) {
+  .scroll-to-frame__instagram-section--title {
+    font-size: 5.5rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .scroll-to-frame__instagram-section--title {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__instagram-section--title {
+    font-size: 4.5rem;
+  }
+}
+.scroll-to-frame__instagram-section--link {
+  z-index: 3;
+  background-image: linear-gradient(to right bottom, #f5ad14, yellow);
+  color: transparent;
+  -webkit-background-clip: text;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.05rem;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 61.9em) {
+  .scroll-to-frame__instagram-section--link {
+    font-size: 1.65rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .scroll-to-frame__instagram-section--link {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__instagram-section--link {
+    font-size: 0.8rem;
+  }
+}
+.scroll-to-frame__instagram-section:hover .scroll-to-frame__instagram-section--bg {
+  transform: all 0.5s;
+  transform: rotate3d(0, 1, 0.5, -45deg);
+}
+.scroll-to-frame__instagram-section:hover .scroll-to-frame__instagram-section--picture {
+  transform: scale(1.3);
+}
+.scroll-to-frame__instagram-section:hover .scroll-to-frame__instagram-section--title {
+  opacity: 0;
+  transform: translate(-50%, 0);
+}
+.scroll-to-frame__instagram-section:hover .scroll-to-frame__instagram-section--link {
+  opacity: 1;
+  transform: translate(-50%, -50%);
 }
 
 .opened {
@@ -678,6 +895,9 @@ body {
 .opened .scroll-to-frame__social {
   width: 5rem;
   height: 5rem;
+}
+.opened .scroll-to-frame__socialheader {
+  font-size: 6rem;
 }
 
 .about-section {
@@ -1683,7 +1903,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  filter: blur(2px);
+  filter: blur(0.01rem);
 }
 .contact-section__background--1 {
   border-radius: 0.4rem;
