@@ -70,13 +70,13 @@ body {
 }
 .header-section__logo {
   position: absolute;
-  left: 41%;
+  left: 42%;
   top: 2.5%;
   background-image: url(images/logocopy.png);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 15%;
+  width: 12.5%;
   height: 19.5%;
 }
 .header-section__img {
