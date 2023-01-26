@@ -145,6 +145,12 @@ $transition-time: .4s;
         background-position: center;
         width: 60%;
         height: 35%;
+        @include respond(tab-port) {
+            height: 30%;
+        }
+        @include respond(phone) {
+            height: 25%;
+        }
         position: relative;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
         left: 50%;
@@ -337,10 +343,10 @@ $transition-time: .4s;
                 font-size: 1.65rem;
             }
             @include respond(tab-port) {
-                font-size: 1.1rem;
+                font-size: 1.4rem;
             }
             @include respond(phone) {
-                font-size: 0.8rem;
+                font-size: 1.1rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;
@@ -429,10 +435,10 @@ $transition-time: .4s;
                 font-size: 1.65rem;
             }
             @include respond(tab-port) {
-                font-size: 1.1rem;
+                font-size: 1.4rem;
             }
             @include respond(phone) {
-                font-size: 0.8rem;
+                font-size: 1.1rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;

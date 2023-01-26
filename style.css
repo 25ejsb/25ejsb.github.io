@@ -68,6 +68,11 @@ body {
   background-color: white;
   z-index: 2;
 }
+@media only screen and (max-width: 48em) {
+  .header-section {
+    height: 100rem;
+  }
+}
 .header-section__logo {
   position: absolute;
   left: 42%;
@@ -84,7 +89,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 75rem;
+  height: 100%;
   background-size: 100% 100%;
   background-position: center;
 }
@@ -503,6 +508,16 @@ body {
   text-align: center;
   overflow: hidden;
 }
+@media only screen and (max-width: 48em) {
+  .scroll-to-frame__frame {
+    height: 30%;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__frame {
+    height: 25%;
+  }
+}
 .scroll-to-frame__video {
   position: absolute;
   top: 0;
@@ -715,12 +730,12 @@ body {
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__facebook-section--link {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__facebook-section--link {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 }
 .scroll-to-frame__facebook-section:hover .scroll-to-frame__facebook-section--bg {
@@ -820,12 +835,12 @@ body {
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__instagram-section--link {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__instagram-section--link {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 }
 .scroll-to-frame__instagram-section:hover .scroll-to-frame__instagram-section--bg {
