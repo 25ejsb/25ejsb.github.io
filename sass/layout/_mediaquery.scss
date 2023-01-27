@@ -19,6 +19,11 @@
             @content;
         }
     }
+    @if $breakpoint==phone-advanced {
+        @media only screen and (max-device-width: 36em) {
+            @content;
+        }
+    }
 }
 
 @media only screen and (max-height: 61.9em) {

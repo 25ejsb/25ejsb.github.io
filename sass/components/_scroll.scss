@@ -151,6 +151,9 @@ $transition-time: .4s;
         @include respond(phone) {
             height: 25%;
         }
+        @include respond(phone-advanced) {
+            height: 25%;
+        }
         position: relative;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
         left: 50%;
