@@ -3,9 +3,15 @@
         @media only screen and (max-width:36em) {
             @content;
         }
+        @media only screen and (max-device-width:36em) {
+            @content;
+        }
     }
     @if $breakpoint==tab-port {
         @media only screen and (max-width:48em) {
+            @content;
+        }
+        @media only screen and (max-device-width:48em) {
             @content;
         }
     }
@@ -13,9 +19,15 @@
         @media only screen and (max-width:61.9em) {
             @content;
         }
+        @media only screen and (max-device-width:61.9em) {
+            @content;
+        }
     }
     @if $breakpoint==big-desktop {
         @media only screen and (min-width:75em) {
+            @content;
+        }
+        @media only screen and (max-device-width:75em) {
             @content;
         }
     }
