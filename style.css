@@ -526,7 +526,7 @@ body {
 }
 @media only screen and (max-device-width: 40em) {
   .scroll-to-frame__frame {
-    height: 25%;
+    height: 15%;
   }
 }
 .scroll-to-frame__video {

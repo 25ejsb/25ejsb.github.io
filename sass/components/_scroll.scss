@@ -152,7 +152,7 @@ $transition-time: .4s;
             height: 25%;
         }
         @include respond(phone-advanced) {
-            height: 25%;
+            height: 15%;
         }
         position: relative;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
