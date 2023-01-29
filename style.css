@@ -925,6 +925,11 @@ body {
 .opened .scroll-to-frame__link--label {
   font-size: 2rem;
 }
+@media only screen and (max-device-width: 40em) {
+  .opened .scroll-to-frame__link--label {
+    font-size: 4rem;
+  }
+}
 .opened .scroll-to-frame__link--testimonials {
   font-size: 1.5rem;
 }

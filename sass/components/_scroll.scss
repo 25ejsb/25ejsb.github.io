@@ -504,6 +504,9 @@ $transition-time: .4s;
     }
     .scroll-to-frame__link--label {
         font-size: 2rem;
+        @include respond(phone-advanced) {
+            font-size: 4rem;
+        }
     }
     .scroll-to-frame__link--testimonials {
         font-size: 1.5rem;
