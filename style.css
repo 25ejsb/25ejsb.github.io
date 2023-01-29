@@ -914,7 +914,7 @@ body {
 }
 @media only screen and (max-device-width: 40em) {
   .opened .scroll-to-frame__link {
-    padding: 10rem 8rem;
+    padding: 10rem 11rem;
   }
 }
 .opened .scroll-to-frame__link--label {
