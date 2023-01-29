@@ -73,6 +73,11 @@ body {
     height: 100rem;
   }
 }
+@media only screen and (max-device-width: 40em) {
+  .header-section {
+    height: 100rem;
+  }
+}
 .header-section__logo {
   position: absolute;
   left: 42%;
@@ -83,6 +88,7 @@ body {
   background-repeat: no-repeat;
   width: 12.5%;
   height: 19.5%;
+  user-select: none;
 }
 .header-section__img {
   position: absolute;
@@ -518,7 +524,7 @@ body {
     height: 25%;
   }
 }
-@media only screen and (max-device-width: 36em) {
+@media only screen and (max-device-width: 40em) {
   .scroll-to-frame__frame {
     height: 25%;
   }

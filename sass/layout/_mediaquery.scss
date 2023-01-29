@@ -20,7 +20,7 @@
         }
     }
     @if $breakpoint==phone-advanced {
-        @media only screen and (max-device-width: 36em) {
+        @media only screen and (max-device-width: 40em) {
             @content;
         }
     }
