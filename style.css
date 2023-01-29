@@ -705,11 +705,6 @@ body {
   transform: translate(-50%, -50%);
   transition: all 0.5s;
 }
-@media only screen and (max-device-width: 40em) {
-  .scroll-to-frame__facebook-section--title {
-    left: 65%;
-  }
-}
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__facebook-section--title {
     font-size: 5.5rem;
@@ -934,6 +929,11 @@ body {
 }
 .opened .scroll-to-frame__socialheader {
   font-size: 6rem;
+}
+@media only screen and (max-device-width: 40em) {
+  .opened .scroll-to-frame__socialheader {
+    font-size: 9rem;
+  }
 }
 
 .about-section {

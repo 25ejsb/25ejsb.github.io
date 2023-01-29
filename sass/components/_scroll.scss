@@ -319,9 +319,6 @@ $transition-time: .4s;
             position: absolute;
             top: 50%;
             left: 50%;
-            @include respond(phone-advanced) {
-                left: 65%; 
-            }
             font-size: 6rem;
             @include respond(tab-land) {
                 font-size: 5.5rem;
@@ -515,5 +512,8 @@ $transition-time: .4s;
 
     .scroll-to-frame__socialheader {
         font-size: 6rem;
+        @include respond(phone-advanced) {
+            font-size: 9rem;
+        }
     }
 }
