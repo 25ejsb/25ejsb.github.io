@@ -933,6 +933,11 @@ body {
 .opened .scroll-to-frame__link--testimonials {
   font-size: 1.5rem;
 }
+@media only screen and (max-device-width: 40em) {
+  .opened .scroll-to-frame__link--testimonials {
+    font-size: 3rem;
+  }
+}
 .opened .scroll-to-frame__social {
   width: 5rem;
   height: 5rem;
