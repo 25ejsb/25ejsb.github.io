@@ -497,6 +497,11 @@ body {
   left: 25%;
   top: 2.5%;
 }
+@media only screen and (max-device-width: 40em) {
+  .scroll-to-frame__link--testimonials {
+    left: 22.5%;
+  }
+}
 .scroll-to-frame:not(:last-child) {
   margin-right: 5rem;
 }

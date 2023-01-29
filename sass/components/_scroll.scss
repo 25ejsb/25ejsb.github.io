@@ -133,6 +133,9 @@ $transition-time: .4s;
 
         &--testimonials {
             left: 25%;
+            @include respond(phone-advanced) {
+                left: 22.5%;
+            }
             top: 2.5%;
         }
     }
