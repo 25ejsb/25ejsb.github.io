@@ -43,6 +43,9 @@ body {
     @include respond(tab-port) {
         height: 100rem;
     }
+    @include respond(phone-advanced) {
+        height: 100rem;
+    }
     background-size: cover;
     overflow: hidden;
     background-color: white;
@@ -57,6 +60,7 @@ body {
         background-repeat: no-repeat;
         width: 12.5%;
         height: 19.5%;
+        user-select: none;
     }
 
     &__img {
