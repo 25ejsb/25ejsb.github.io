@@ -519,6 +519,11 @@ body {
   text-align: center;
   overflow: hidden;
 }
+@media only screen and (max-device-width: 40em) {
+  .scroll-to-frame__frame {
+    width: 75%;
+  }
+}
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__frame {
     height: 30%;
@@ -531,7 +536,7 @@ body {
 }
 @media only screen and (max-device-width: 40em) {
   .scroll-to-frame__frame {
-    height: 15%;
+    height: 17.5%;
   }
 }
 @media only screen and (max-device-width: 40em) {
