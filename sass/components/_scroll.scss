@@ -158,6 +158,9 @@ $transition-time: .4s;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
         left: 50%;
         top: 80%;
+        @include respond(phone-advanced) {
+            left: 70%;
+        }
         transform: translate(-50%, -50%);
         text-align: center;
         overflow: hidden;

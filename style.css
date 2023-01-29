@@ -529,6 +529,11 @@ body {
     height: 15%;
   }
 }
+@media only screen and (max-device-width: 40em) {
+  .scroll-to-frame__frame {
+    left: 70%;
+  }
+}
 .scroll-to-frame__video {
   position: absolute;
   top: 0;
