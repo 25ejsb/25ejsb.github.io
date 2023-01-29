@@ -912,6 +912,11 @@ body {
     width: 15%;
   }
 }
+@media only screen and (max-device-width: 40em) {
+  .opened .scroll-to-frame__link {
+    padding: 10rem 8rem;
+  }
+}
 .opened .scroll-to-frame__link--label {
   font-size: 2rem;
 }
