@@ -510,6 +510,9 @@ $transition-time: .4s;
     }
     .scroll-to-frame__link--testimonials {
         font-size: 1.5rem;
+        @include respond(phone-advanced) {
+            font-size: 3rem;
+        }
     }
     .scroll-to-frame__social {
         width: 5rem;
