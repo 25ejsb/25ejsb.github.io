@@ -179,6 +179,7 @@
         background-image: linear-gradient(to right top, $light-orange, red);
         -webkit-background-clip: text;
         text-transform: uppercase;
+        width: 100%;
         color: transparent;
         top: 50%;
         @include respond(phone) {
