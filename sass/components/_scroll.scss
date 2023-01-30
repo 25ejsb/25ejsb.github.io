@@ -9,6 +9,10 @@ $transition-time: .4s;
     overflow: hidden;
     width: 7%;
     height: 8rem;
+    @include respond(phone-advanced) {
+        width: 12%;
+        height: 13rem;
+    }
     background-image: linear-gradient(to right bottom, $light-gray, $dark-gray);
     box-shadow: 0 2rem 2rem rgba($black, 0.5);
     clip-path: circle(40%);

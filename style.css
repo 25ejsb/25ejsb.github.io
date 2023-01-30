@@ -366,6 +366,12 @@ body {
   shape-outside: circle(55%);
   transition: all 0.5s;
 }
+@media only screen and (max-device-width: 40em) {
+  .scroll {
+    width: 12%;
+    height: 13rem;
+  }
+}
 @media only screen and (max-width: 48em) {
   .scroll {
     clip-path: circle(35%);
