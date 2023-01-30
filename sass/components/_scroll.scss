@@ -34,9 +34,6 @@ $transition-time: .4s;
         user-select: none;
         transform: translate(-50%, -50%);
         font-size: 6rem;
-        @include respond(phone-advanced) {
-            font-size: 8rem;
-        }
         text-decoration: none;
         color: $dark;
         z-index: 4;
@@ -54,6 +51,9 @@ $transition-time: .4s;
         }
         @include respond(phone) {
             font-size: 2.5rem;
+        }
+        @include respond(phone-advanced) {
+            font-size: 8rem;
         }
     }
 }
