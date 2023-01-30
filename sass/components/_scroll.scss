@@ -12,6 +12,7 @@ $transition-time: .4s;
     @include respond(phone-advanced) {
         width: 12%;
         height: 13rem;
+        left: 8%;
     }
     background-image: linear-gradient(to right bottom, $light-gray, $dark-gray);
     box-shadow: 0 2rem 2rem rgba($black, 0.5);
@@ -33,6 +34,9 @@ $transition-time: .4s;
         user-select: none;
         transform: translate(-50%, -50%);
         font-size: 6rem;
+        @include respond(phone-advanced) {
+            font-size: 8rem;
+        }
         text-decoration: none;
         color: $dark;
         z-index: 4;

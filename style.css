@@ -370,6 +370,7 @@ body {
   .scroll {
     width: 12%;
     height: 13rem;
+    left: 8%;
   }
 }
 @media only screen and (max-width: 48em) {
@@ -395,6 +396,11 @@ body {
   background-color: transparent;
   border: none;
   transition: all 0.5s;
+}
+@media only screen and (max-device-width: 40em) {
+  .scroll__text {
+    font-size: 8rem;
+  }
 }
 @media only screen and (min-width: 75em) {
   .scroll__text {
