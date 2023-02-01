@@ -43,19 +43,27 @@ body {
     @include respond(tab-port) {
         height: 100rem;
     }
+    @include respond(small-phone) {
+        height: 65rem;
+    }
     background-size: cover;
     overflow: hidden;
     background-color: white;
     z-index: 2;
     &__logo {
         position: absolute;
-        left: 42%;
-        top: 2.5%;
+        left: 48%;
+        top: 12.5%;
+        transform: translate(-50%, -50%);
+        text-align: center;
         background-image: url(images/logocopy.png);
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
         width: 12.5%;
+        @include respond(small-phone) {
+            width: 20%;
+        }
         height: 19.5%;
         user-select: none;
     }

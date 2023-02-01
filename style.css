@@ -73,10 +73,17 @@ body {
     height: 100rem;
   }
 }
+@media only screen and (max-width: 30em) {
+  .header-section {
+    height: 65rem;
+  }
+}
 .header-section__logo {
   position: absolute;
-  left: 42%;
-  top: 2.5%;
+  left: 48%;
+  top: 12.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   background-image: url(images/logocopy.png);
   background-size: 100% 100%;
   background-position: center;
@@ -84,6 +91,11 @@ body {
   width: 12.5%;
   height: 19.5%;
   user-select: none;
+}
+@media only screen and (max-width: 30em) {
+  .header-section__logo {
+    width: 20%;
+  }
 }
 .header-section__img {
   position: absolute;
@@ -482,16 +494,13 @@ body {
 }
 .scroll-to-frame__link--label, .scroll-to-frame__link--testimonials {
   position: absolute;
-  top: 0;
-  left: 25%;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   z-index: 999;
   font-size: 0rem;
-}
-.scroll-to-frame__link--testimonials {
-  left: 25%;
-  top: 2.5%;
 }
 .scroll-to-frame:not(:last-child) {
   margin-right: 5rem;
@@ -510,6 +519,11 @@ body {
   text-align: center;
   overflow: hidden;
 }
+@media only screen and (max-width: 30em) {
+  .scroll-to-frame__frame {
+    width: 75%;
+  }
+}
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__frame {
     height: 30%;
@@ -518,6 +532,16 @@ body {
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__frame {
     height: 25%;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .scroll-to-frame__frame {
+    height: 22.5%;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .scroll-to-frame__frame {
+    top: 77.5%;
   }
 }
 .scroll-to-frame__video {
@@ -904,8 +928,18 @@ body {
     width: 15%;
   }
 }
+@media only screen and (max-width: 30em) {
+  .opened .scroll-to-frame__link {
+    padding: 6rem 5rem;
+  }
+}
 .opened .scroll-to-frame__link--label {
   font-size: 2rem;
+}
+@media only screen and (max-width: 30em) {
+  .opened .scroll-to-frame__link--label {
+    font-size: 1.8rem;
+  }
 }
 .opened .scroll-to-frame__link--testimonials {
   font-size: 1.5rem;
@@ -924,6 +958,11 @@ body {
   height: 170rem;
   z-index: 2;
   overflow: hidden;
+}
+@media only screen and (max-width: 30em) {
+  .about-section {
+    height: 180rem;
+  }
 }
 .about-section__background {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(images/header1.jpg);
@@ -1088,6 +1127,11 @@ body {
   text-transform: uppercase;
   width: 50%;
 }
+@media only screen and (max-width: 30em) {
+  .about-section__para {
+    top: 22.5%;
+  }
+}
 .about-section__paras {
   position: absolute;
   left: 50%;
@@ -1161,6 +1205,11 @@ body {
 @media only screen and (max-width: 36em) {
   .about-section__titlepara {
     font-size: 3.75rem;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .about-section__titlepara {
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 36em) {
@@ -1286,6 +1335,11 @@ body {
     left: 82.5%;
   }
 }
+@media only screen and (max-width: 30em) {
+  .about-section__image2--open {
+    left: 79%;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .about-section__image2--open {
     transform: rotate(-12.5deg);
@@ -1367,6 +1421,11 @@ body {
     left: -80%;
   }
 }
+@media only screen and (max-width: 30em) {
+  .about-section__houses--1 {
+    left: -10%;
+  }
+}
 .about-section__houses--1:hover .about-section__houses--info {
   filter: blur(0.3rem);
   transform: scale(1.4);
@@ -1410,6 +1469,11 @@ body {
     top: 26%;
   }
 }
+@media only screen and (max-width: 30em) {
+  .about-section__houses--2 {
+    left: -10%;
+  }
+}
 .about-section__houses--2:hover .about-section__houses--info {
   filter: blur(0.3rem);
   transform: scale(1.4);
@@ -1450,6 +1514,11 @@ body {
   .about-section__houses--3 {
     left: -80%;
     top: 52%;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .about-section__houses--3 {
+    left: -10%;
   }
 }
 .about-section__houses--3:hover .about-section__houses--info {
@@ -1516,9 +1585,25 @@ body {
   height: 20%;
   font-size: 1.5rem;
   position: absolute;
-  top: 65%;
-  left: 0;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+}
+@media only screen and (max-width: 30em) {
+  .about-section__houses--description {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .about-section__houses--description {
+    top: 70%;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .about-section__houses--description {
+    top: 52.5%;
+  }
 }
 
 .opacity-in {

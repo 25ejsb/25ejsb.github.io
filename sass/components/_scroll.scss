@@ -132,20 +132,13 @@ $transition-time: .4s;
         }
         &--label, &--testimonials {
             position: absolute;
-            top: 0;
-            left: 25%;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             text-align: center;
             color: white;
             z-index: 999;
             font-size: 0rem;
-        }
-
-        &--testimonials {
-            left: 25%;
-            // @include respond(phone-advanced) {
-            //     left: 22.5%;
-            // }
-            top: 2.5%;
         }
     }
     &:not(:last-child) {
@@ -156,9 +149,10 @@ $transition-time: .4s;
         background-size: 100% 100%;
         background-position: center;
         width: 60%;
-        // @include respond(phone-advanced) {
-        //     width: 75%;
-        // }
+        
+        @include respond(small-phone) {
+            width: 75%;
+        }
         height: 35%;
         @include respond(tab-port) {
             height: 30%;
@@ -166,15 +160,15 @@ $transition-time: .4s;
         @include respond(phone) {
             height: 25%;
         }
-        // @include respond(phone-advanced) {
-        //     height: 17.5%;
-        // }
+        @include respond(small-phone) {
+            height: 22.5%;
+        }
         position: relative;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
         left: 50%;
         top: 80%;
-        @include respond(phone-advanced) {
-            top: 70%;
+        @include respond(small-phone) {
+            top: 77.5%;
         }
         transform: translate(-50%, -50%);
         text-align: center;
@@ -514,14 +508,14 @@ $transition-time: .4s;
         @include respond(phone) {
             width: 15%;
         }
-        // @include respond(phone-advanced) {
-        //     padding: 10rem 11rem;
-        // }
+        @include respond(small-phone) {
+            padding: 6rem 5rem;
+        }
     }
     .scroll-to-frame__link--label {
         font-size: 2rem;
-        @include respond(phone-advanced) {
-            font-size: 4rem;
+        @include respond(small-phone) {
+            font-size: 1.8rem;
         }
     }
     .scroll-to-frame__link--testimonials {

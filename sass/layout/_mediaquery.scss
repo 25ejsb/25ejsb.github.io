@@ -1,11 +1,6 @@
 @mixin respond($breakpoint) {
-    @if $breakpoint==phone {
-        @media only screen and (max-width:36em) {
-            @content;
-        }
-    }
-    @if $breakpoint==tab-port {
-        @media only screen and (max-width:48em) {
+    @if $breakpoint==big-desktop {
+        @media only screen and (min-width:75em) {
             @content;
         }
     }
@@ -14,16 +9,21 @@
             @content;
         }
     }
-    @if $breakpoint==big-desktop {
-        @media only screen and (min-width:75em) {
+    @if $breakpoint==tab-port {
+        @media only screen and (max-width:48em) {
             @content;
         }
     }
-    // @if $breakpoint==phone-advanced {
-    //     @media only screen and (max-device-width: 40em) {
-    //         @content;
-    //     }
-    // }
+    @if $breakpoint==phone {
+        @media only screen and (max-width:36em) {
+            @content;
+        }
+    }
+    @if $breakpoint==small-phone {
+        @media only screen and (max-width:30em) {
+            @content;
+        }
+    }
 }
 
 @media only screen and (max-height: 61.9em) {
