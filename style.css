@@ -1046,6 +1046,11 @@ body {
     font-size: 2.5rem;
   }
 }
+@media only screen and (max-width: 30em) {
+  .about-section__header {
+    font-size: 2rem;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .about-section__header {
     left: 39.5%;
@@ -1087,6 +1092,11 @@ body {
 @media only screen and (max-width: 36em) {
   .about-section__header--2 {
     font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .about-section__header--2 {
+    font-size: 1.5rem;
   }
 }
 @media only screen and (min-width: 75em) {
