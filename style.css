@@ -986,6 +986,11 @@ body {
     height: 11.5%;
   }
 }
+@media only screen and (max-width: 30em) {
+  .about-section__aboutme--row1 {
+    transform: translate(-20%);
+  }
+}
 .about-section__main {
   position: absolute;
   top: 0;

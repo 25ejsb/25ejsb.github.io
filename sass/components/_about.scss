@@ -26,6 +26,11 @@
         transform: translate(-50%, -50%);
         text-align: center;
         border-bottom: 2px solid white;
+        &--row1 {
+            @include respond(small-phone) {
+                transform: translate(-20%);
+            }
+        }
     }
     &__main {
         position: absolute;
