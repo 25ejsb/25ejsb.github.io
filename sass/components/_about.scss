@@ -332,6 +332,9 @@
             @include respond(phone) {
                 padding: 9.25rem 15rem;
             }
+            @include respond(small-phone) {
+                transform: translate(-50%, -50%);
+            }
             position: absolute;
             overflow: hidden;
             color: white;
@@ -351,7 +354,8 @@
                 left: -80%;
             }
             @include respond(small-phone) {
-                left: -15%;
+                left: 75%;
+                top: 10%;
             }
             &:hover .about-section__houses--info {
                 filter: blur(0.3rem);
@@ -374,6 +378,9 @@
             overflow: hidden;
             top: -5%;
             left: 40%;
+            @include respond(small-phone) {
+                transform: translate(-50%, -50%);
+            }
             text-align: center;
             @include respond(tab-land) {
                 left: 34%;
@@ -388,7 +395,8 @@
                 top: 26%;
             }
             @include respond(small-phone) {
-                left: -15%;
+                left: 75%;
+                top: 37.5%;
             }
             z-index: 2;
             &:hover .about-section__houses--info {
@@ -413,6 +421,9 @@
             top: -5%;
             text-align: center;
             left: 65%;
+            @include respond(small-phone) {
+                transform: translate(-50%, -50%);
+            }
             @include respond(tab-land) {
                 left: 67%;
                 top: 0;
@@ -426,7 +437,8 @@
                 top: 52%;
             }
             @include respond(small-phone) {
-                left: -15%;
+                left: 75%;
+                top: 65%;
             }
             &:hover .about-section__houses--info {
                 filter: blur(0.3rem);
@@ -503,7 +515,7 @@
                 top: 70%;
             }
             @include respond(small-phone) {
-                top: 52.5%;
+                top: 60%;
             }
             text-align: center;
         }
