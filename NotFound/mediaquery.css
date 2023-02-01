@@ -63,4 +63,7 @@
     .main-info {
         height: 50%;
     }
+    .main {
+        height: 90vh;
+    }
 }
