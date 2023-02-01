@@ -1066,6 +1066,11 @@ body {
     left: 47.5%;
   }
 }
+@media only screen and (max-width: 30em) {
+  .about-section__header {
+    left: 13%;
+  }
+}
 .about-section__header--2 {
   font-size: 3.75rem;
   position: absolute;

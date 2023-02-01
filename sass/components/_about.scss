@@ -85,6 +85,9 @@
             left: 47.5%;
         }
         top: 10%;
+        @include respond(small-phone) {
+            left: 13%;
+        }
         height: 100%;
         padding: 2rem;
         text-transform: uppercase;
