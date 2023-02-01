@@ -9,11 +9,11 @@ $transition-time: .4s;
     overflow: hidden;
     width: 7%;
     height: 8rem;
-    @include respond(phone-advanced) {
-        width: 12%;
-        height: 13rem;
-        left: 8%;
-    }
+    // @include respond(phone-advanced) {
+    //     width: 12%;
+    //     height: 13rem;
+    //     left: 8%;
+    // }
     background-image: linear-gradient(to right bottom, $light-gray, $dark-gray);
     box-shadow: 0 2rem 2rem rgba($black, 0.5);
     clip-path: circle(40%);
@@ -53,9 +53,9 @@ $transition-time: .4s;
         @include respond(phone) {
             font-size: 2.5rem;
         }
-        @include respond(phone-advanced) {
-            font-size: 6rem;
-        }
+        // @include respond(phone-advanced) {
+        //     font-size: 6rem;
+        // }
     }
 }
 
@@ -142,9 +142,9 @@ $transition-time: .4s;
 
         &--testimonials {
             left: 25%;
-            @include respond(phone-advanced) {
-                left: 22.5%;
-            }
+            // @include respond(phone-advanced) {
+            //     left: 22.5%;
+            // }
             top: 2.5%;
         }
     }
@@ -156,9 +156,9 @@ $transition-time: .4s;
         background-size: 100% 100%;
         background-position: center;
         width: 60%;
-        @include respond(phone-advanced) {
-            width: 75%;
-        }
+        // @include respond(phone-advanced) {
+        //     width: 75%;
+        // }
         height: 35%;
         @include respond(tab-port) {
             height: 30%;
@@ -166,9 +166,9 @@ $transition-time: .4s;
         @include respond(phone) {
             height: 25%;
         }
-        @include respond(phone-advanced) {
-            height: 17.5%;
-        }
+        // @include respond(phone-advanced) {
+        //     height: 17.5%;
+        // }
         position: relative;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
         left: 50%;
@@ -526,9 +526,9 @@ $transition-time: .4s;
     }
     .scroll-to-frame__link--testimonials {
         font-size: 1.5rem;
-        @include respond(phone-advanced) {
-            font-size: 3rem;
-        }
+        // @include respond(phone-advanced) {
+        //     font-size: 3rem;
+        // }
     }
     .scroll-to-frame__social {
         width: 5rem;
@@ -537,8 +537,8 @@ $transition-time: .4s;
 
     .scroll-to-frame__socialheader {
         font-size: 6rem;
-        @include respond(phone-advanced) {
-            font-size: 9rem;
-        }
+        // @include respond(phone-advanced) {
+        //     font-size: 9rem;
+        // }
     }
 }

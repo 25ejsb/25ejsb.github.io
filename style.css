@@ -73,11 +73,6 @@ body {
     height: 100rem;
   }
 }
-@media only screen and (max-device-width: 40em) {
-  .header-section {
-    height: 100rem;
-  }
-}
 .header-section__logo {
   position: absolute;
   left: 42%;
@@ -366,13 +361,6 @@ body {
   shape-outside: circle(55%);
   transition: all 0.5s;
 }
-@media only screen and (max-device-width: 40em) {
-  .scroll {
-    width: 12%;
-    height: 13rem;
-    left: 8%;
-  }
-}
 @media only screen and (max-width: 48em) {
   .scroll {
     clip-path: circle(35%);
@@ -416,11 +404,6 @@ body {
 @media only screen and (max-width: 36em) {
   .scroll__text {
     font-size: 2.5rem;
-  }
-}
-@media only screen and (max-device-width: 40em) {
-  .scroll__text {
-    font-size: 6rem;
   }
 }
 
@@ -510,11 +493,6 @@ body {
   left: 25%;
   top: 2.5%;
 }
-@media only screen and (max-device-width: 40em) {
-  .scroll-to-frame__link--testimonials {
-    left: 22.5%;
-  }
-}
 .scroll-to-frame:not(:last-child) {
   margin-right: 5rem;
 }
@@ -532,11 +510,6 @@ body {
   text-align: center;
   overflow: hidden;
 }
-@media only screen and (max-device-width: 40em) {
-  .scroll-to-frame__frame {
-    width: 75%;
-  }
-}
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__frame {
     height: 30%;
@@ -545,16 +518,6 @@ body {
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__frame {
     height: 25%;
-  }
-}
-@media only screen and (max-device-width: 40em) {
-  .scroll-to-frame__frame {
-    height: 17.5%;
-  }
-}
-@media only screen and (max-device-width: 40em) {
-  .scroll-to-frame__frame {
-    top: 70%;
   }
 }
 .scroll-to-frame__video {
@@ -944,18 +907,8 @@ body {
 .opened .scroll-to-frame__link--label {
   font-size: 2rem;
 }
-@media only screen and (max-device-width: 40em) {
-  .opened .scroll-to-frame__link--label {
-    font-size: 4rem;
-  }
-}
 .opened .scroll-to-frame__link--testimonials {
   font-size: 1.5rem;
-}
-@media only screen and (max-device-width: 40em) {
-  .opened .scroll-to-frame__link--testimonials {
-    font-size: 3rem;
-  }
 }
 .opened .scroll-to-frame__social {
   width: 5rem;
@@ -963,11 +916,6 @@ body {
 }
 .opened .scroll-to-frame__socialheader {
   font-size: 6rem;
-}
-@media only screen and (max-device-width: 40em) {
-  .opened .scroll-to-frame__socialheader {
-    font-size: 9rem;
-  }
 }
 
 .about-section {
@@ -1213,11 +1161,6 @@ body {
 @media only screen and (max-width: 36em) {
   .about-section__titlepara {
     font-size: 3.75rem;
-  }
-}
-@media only screen and (max-device-width: 40em) {
-  .about-section__titlepara {
-    font-size: 5.75rem;
   }
 }
 @media only screen and (max-width: 36em) {
