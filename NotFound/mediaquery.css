@@ -58,5 +58,9 @@
     .logo {
         left: 50%;
         width: 25%;
+        height: 20%;
+    }
+    .main-info {
+        height: 15rem;
     }
 }
