@@ -1423,7 +1423,7 @@ body {
 }
 @media only screen and (max-width: 30em) {
   .about-section__houses--1 {
-    left: -10%;
+    left: -15%;
   }
 }
 .about-section__houses--1:hover .about-section__houses--info {
@@ -1471,7 +1471,7 @@ body {
 }
 @media only screen and (max-width: 30em) {
   .about-section__houses--2 {
-    left: -10%;
+    left: -15%;
   }
 }
 .about-section__houses--2:hover .about-section__houses--info {
@@ -1518,7 +1518,7 @@ body {
 }
 @media only screen and (max-width: 30em) {
   .about-section__houses--3 {
-    left: -10%;
+    left: -15%;
   }
 }
 .about-section__houses--3:hover .about-section__houses--info {

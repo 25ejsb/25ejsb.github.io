@@ -351,7 +351,7 @@
                 left: -80%;
             }
             @include respond(small-phone) {
-                left: -10%;
+                left: -15%;
             }
             &:hover .about-section__houses--info {
                 filter: blur(0.3rem);
@@ -388,7 +388,7 @@
                 top: 26%;
             }
             @include respond(small-phone) {
-                left: -10%;
+                left: -15%;
             }
             z-index: 2;
             &:hover .about-section__houses--info {
@@ -426,7 +426,7 @@
                 top: 52%;
             }
             @include respond(small-phone) {
-                left: -10%;
+                left: -15%;
             }
             &:hover .about-section__houses--info {
                 filter: blur(0.3rem);
