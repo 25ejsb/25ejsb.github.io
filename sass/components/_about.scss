@@ -28,7 +28,7 @@
         border-bottom: 2px solid white;
         &--row1 {
             @include respond(small-phone) {
-                transform: translate(-20%);
+                transform: translate(-30%);
             }
         }
     }
@@ -67,7 +67,7 @@
             font-size: 2.5rem;
         }
         @include respond(small-phone) {
-            font-size: 2rem;
+            font-size: 1.65rem;
         }
         font-family: inherit;
         color: white;
