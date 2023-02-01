@@ -54,7 +54,7 @@ $transition-time: .4s;
             font-size: 2.5rem;
         }
         @include respond(phone-advanced) {
-            font-size: 8rem;
+            font-size: 6rem;
         }
     }
 }
@@ -514,9 +514,9 @@ $transition-time: .4s;
         @include respond(phone) {
             width: 15%;
         }
-        @include respond(phone-advanced) {
-            padding: 10rem 11rem;
-        }
+        // @include respond(phone-advanced) {
+        //     padding: 10rem 11rem;
+        // }
     }
     .scroll-to-frame__link--label {
         font-size: 2rem;
