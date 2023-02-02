@@ -27,6 +27,9 @@
         text-align: center;
         border-bottom: 2px solid white;
         &--row1 {
+            @include respond(big-monitor) {
+                transform: translate(-10%, 13%);
+            }
             @include respond(small-phone) {
                 transform: translate(-30%);
             }
@@ -187,6 +190,9 @@
         font-size: 5.75rem;
         @include respond(big-desktop) {
             font-size: 6.5rem;
+        }
+        @include respond(big-monitor) {
+            font-size: 5.75rem;
         }
         @include respond(tab-land) {
             font-size: 5.75rem;
