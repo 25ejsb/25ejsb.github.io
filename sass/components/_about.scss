@@ -95,7 +95,6 @@
             top: 13%;
         }
         height: 100%;
-        width: 100%;
         padding: 2rem;
         text-transform: uppercase;
         &--2 {
@@ -193,7 +192,7 @@
             font-size: 6.5rem;
         }
         @include respond(big-monitor) {
-            font-size: 5.75rem;
+            font-size: 4.5rem;
         }
         @include respond(tab-land) {
             font-size: 5.75rem;
@@ -218,7 +217,6 @@
         @include respond(phone) {
             top: 45%;
         }
-        width: 100%;
         transform: translate(-50%, -50%);
         &--2 {
             top: 74%;
