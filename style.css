@@ -140,6 +140,11 @@ body {
     font-size: 6rem;
   }
 }
+@media only screen and (max-width: 66em) {
+  .header-section__headtext {
+    font-size: 5.5rem;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .header-section__headtext {
     font-size: 5.5rem;
