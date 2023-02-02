@@ -1465,6 +1465,12 @@ body {
     transform: translate(-50%, -50%);
   }
 }
+@media only screen and (max-width: 66em) {
+  .about-section__houses--1 {
+    left: 4%;
+    top: -5%;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .about-section__houses--1 {
     left: 1%;
@@ -1519,6 +1525,12 @@ body {
     transform: translate(-50%, -50%);
   }
 }
+@media only screen and (max-width: 66em) {
+  .about-section__houses--2 {
+    left: 35%;
+    top: -5%;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .about-section__houses--2 {
     left: 34%;
@@ -1565,6 +1577,12 @@ body {
 @media only screen and (max-width: 36em) {
   .about-section__houses--3 {
     padding: 9.25rem 15rem;
+  }
+}
+@media only screen and (max-width: 66em) {
+  .about-section__houses--3 {
+    left: 66%;
+    top: -5%;
   }
 }
 @media only screen and (max-width: 30em) {

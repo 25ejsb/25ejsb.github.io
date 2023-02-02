@@ -366,6 +366,10 @@
             top: -5%;
             left: 15%;
             text-align: center;
+            @include respond(big-monitor) {
+                left: 4%;
+                top: -5%;
+            }
             @include respond(tab-land) {
                 left: 1%;
                 top: 0;
@@ -407,6 +411,10 @@
                 transform: translate(-50%, -50%);
             }
             text-align: center;
+            @include respond(big-monitor) {
+                left: 35%;
+                top: -5%;
+            }
             @include respond(tab-land) {
                 left: 34%;
                 top: 0;
@@ -446,6 +454,10 @@
             top: -5%;
             text-align: center;
             left: 65%;
+            @include respond(big-monitor) {
+                left: 66%;
+                top: -5%;
+            }
             @include respond(small-phone) {
                 transform: translate(-50%, -50%);
             }
