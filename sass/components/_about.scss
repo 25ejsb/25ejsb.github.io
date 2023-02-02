@@ -57,6 +57,9 @@
     }
     &__header {
         font-size: 6.5rem;
+        @include respond(big-monitor) {
+            font-size: 5.5rem;
+        }
         @include respond(tab-land) {
             font-size: 5rem;
         }

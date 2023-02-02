@@ -1049,6 +1049,11 @@ body {
   padding: 2rem;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 66em) {
+  .about-section__header {
+    font-size: 5.5rem;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .about-section__header {
     font-size: 5rem;
