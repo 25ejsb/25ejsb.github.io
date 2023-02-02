@@ -143,6 +143,9 @@ body {
         @include respond(big-desktop) {
             font-size: 5rem;
         }
+        @include respond(big-monitor) {
+            font-size: 4.5rem;
+        }
         @include respond(tab-land) {
             font-size: 4.25rem;
         }
