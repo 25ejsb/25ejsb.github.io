@@ -145,7 +145,7 @@ body {
         }
         @include respond(big-monitor) {
             font-size: 4.5rem;
-            width: 60%;
+            width: 70%;
         }
         @include respond(tab-land) {
             font-size: 4.25rem;
