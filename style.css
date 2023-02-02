@@ -142,7 +142,8 @@ body {
 }
 @media only screen and (max-width: 66em) {
   .header-section__headtext {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
+    color: red;
   }
 }
 @media only screen and (max-width: 61.9em) {
