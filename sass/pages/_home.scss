@@ -40,6 +40,9 @@ body {
     background-position: center;
     position: relative;
     height: 75rem;
+    @include respond(big-monitor) {
+        height: 70rem;
+    }
     @include respond(tab-port) {
         height: 100rem;
     }

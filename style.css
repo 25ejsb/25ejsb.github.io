@@ -68,6 +68,11 @@ body {
   background-color: white;
   z-index: 2;
 }
+@media only screen and (max-width: 66em) {
+  .header-section {
+    height: 70rem;
+  }
+}
 @media only screen and (max-width: 48em) {
   .header-section {
     height: 100rem;
