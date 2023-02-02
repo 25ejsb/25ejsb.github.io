@@ -186,6 +186,7 @@ body {
 @media only screen and (max-width: 66em) {
   .header-section__headextra {
     font-size: 4.5rem;
+    width: 60%;
   }
 }
 @media only screen and (max-width: 61.9em) {
