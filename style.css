@@ -1783,6 +1783,11 @@ body {
     width: 65%;
   }
 }
+@media only screen and (max-width: 30em) {
+  .testimonials-section__testimonial {
+    width: 70%;
+  }
+}
 .testimonials-section__testimonial--header {
   font-size: 5rem;
   color: black;
