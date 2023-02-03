@@ -133,7 +133,7 @@ $(document).ready(function() {
 
 const image1 = document.querySelectorAll(".about-section__image1");
 const image2 = document.querySelectorAll(".about-section__image2");
-const testimonialSection = document.querySelectorAll(".testimonials-section");
+const testimonial = document.querySelectorAll(".testimonials-section__testimonial");
 const contactSection = document.querySelectorAll(".contact-section");
 
 var aboutbg = document.querySelectorAll(".about-section__background");
@@ -155,15 +155,14 @@ window.addEventListener("scroll", function(){
                 singAboutBg.style = "filter: blur(0.3rem)";
             }
         });
-        testimonialSection.forEach(box => {
+        testimonial.forEach(box => {
             const boxTop = box.getBoundingClientRect().top;
-            if (boxTop < triggerBottomSection && boxTop > triggerTopSection) {
-                box.classList.add("testimonials-section--open");
+            if (boxTop < triggerBottom) {
+                box.classList.add("testimonials-section__testimonial--open");
+            } else {
+                box.classList.remove("testimonials-section__testimonial--open");
             }
-            else {
-                box.classList.remove("testimonials-section--open");
-            }
-        });
+        })
         image2.forEach(box => {
             const boxTop = box.getBoundingClientRect().top;
             if (boxTop < triggerBottom) {
