@@ -239,10 +239,10 @@
                 }
                 top: 22.5%;
                 @include respond(tab-land) {
-                    top: 20%;
+                    top: 22%;
                 }
                 @include respond(phone) {
-                    top: 20%;
+                    top: 22%;
                 }
                 transform: translate(-50%, -200%);
                 transition: all .5s;
@@ -270,10 +270,10 @@
                 }
                 top: 40%;
                 @include respond(tab-land) {
-                    top: 37%;
+                    top: 39%;
                 }
                 @include respond(phone) {
-                    top: 37%;
+                    top: 39%;
                 }
                 transform: translate(-50%, -200%);
                 transition: all .5s;
@@ -301,10 +301,10 @@
                 }
                 top: 71%;
                 @include respond(tab-land) {
-                    top: 67%;
+                    top: 69.5%;
                 }
                 @include respond(phone) {
-                    top: 65%;
+                    top: 69.5%;
                 }
                 transform: translate(-50%, -200%);
                 transition: all .5s;

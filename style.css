@@ -1705,7 +1705,7 @@ body {
 
 .testimonials-section {
   position: relative;
-  height: 500rem;
+  height: 530rem;
   overflow: hidden;
   background-color: white;
   z-index: 1;
@@ -1801,7 +1801,7 @@ body {
 }
 .testimonials-section__testimonial--para {
   text-align: center;
-  font-size: 2.75rem;
+  font-size: 2.65rem;
   color: rgb(40, 40, 40);
   width: 100%;
 }
@@ -2459,12 +2459,12 @@ body {
 }
 @media only screen and (max-width: 61.9em) {
   .contact-section__main--field--1 {
-    top: 20%;
+    top: 22%;
   }
 }
 @media only screen and (max-width: 36em) {
   .contact-section__main--field--1 {
-    top: 20%;
+    top: 22%;
   }
 }
 .contact-section__main--field--1--open {
@@ -2502,12 +2502,12 @@ body {
 }
 @media only screen and (max-width: 61.9em) {
   .contact-section__main--field--2 {
-    top: 37%;
+    top: 39%;
   }
 }
 @media only screen and (max-width: 36em) {
   .contact-section__main--field--2 {
-    top: 37%;
+    top: 39%;
   }
 }
 .contact-section__main--field--2--open {
@@ -2545,12 +2545,12 @@ body {
 }
 @media only screen and (max-width: 61.9em) {
   .contact-section__main--field--3 {
-    top: 67%;
+    top: 69.5%;
   }
 }
 @media only screen and (max-width: 36em) {
   .contact-section__main--field--3 {
-    top: 65%;
+    top: 69.5%;
   }
 }
 .contact-section__main--field--3--open {
