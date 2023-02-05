@@ -26,7 +26,8 @@
                 width: 27%;
             }
             @include respond(phone) {
-                width: 25%;
+                width: 40%;
+                height: 42.5%;
             }
             margin-top: 5rem;
             margin-left: 3rem;
@@ -58,6 +59,14 @@
         &--3 {
             @include section-basics;
             background-image: url(images/header8.jpg);
+        }
+        &--4 {
+            @include section-basics;
+            background-image: url(https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/318842000_693353042456445_7735387971084129000_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=_qxlbezm9yYAX-hU9v-&_nc_ht=scontent-bos5-1.xx&oh=00_AfDhTXtEapZBcVtwhaB7Cw0Sy62FFxMUcH_AgJx-ipPFnw&oe=63E4BBA6);
+            opacity: 0;
+            @include respond(phone) {
+                opacity: 1;
+            }
         }
     }
     &__main {
@@ -178,6 +187,9 @@
                 font-size: 1.75rem;
             }
             padding: 1.6rem;
+            @include respond(small-phone) {
+                padding: 1.4rem 0.5rem;
+            }
             text-align: right;
             border-radius: 0.4rem;
             color: white;
