@@ -50,11 +50,11 @@
         }
         text-align: center;
         text-transform: uppercase;
-        width: 60%;
+        width: 55%;
         height: 40%;
     }
     &__socials {
-        width: 10%;
+        width: 20%;
         height: 10%;
         display: flex;
         justify-content: center;
@@ -65,7 +65,7 @@
         }
         flex-wrap: wrap;
     }
-    &__instagram, &__facebook {
+    &__instagram, &__facebook, &__tiktok {
         width: 6rem;
         height: 6rem;
         @include respond(big-monitor) {
