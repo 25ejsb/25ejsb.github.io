@@ -565,7 +565,7 @@ $transition-time: .4s;
         }
         &:hover &--bg {
             transform: all .5s;
-            transform: rotate3d(0, 1, 0.5, -45deg);
+            transform: rotate3d(0, 1, 0.5, 45deg);
         }
         &:hover &--picture {
             transform: scale(1.3);

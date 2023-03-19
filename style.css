@@ -1014,7 +1014,7 @@ body {
 }
 .scroll-to-frame__tiktok-section:hover .scroll-to-frame__tiktok-section--bg {
   transform: all 0.5s;
-  transform: rotate3d(0, 1, 0.5, -45deg);
+  transform: rotate3d(0, 1, 0.5, 45deg);
 }
 .scroll-to-frame__tiktok-section:hover .scroll-to-frame__tiktok-section--picture {
   transform: scale(1.3);
