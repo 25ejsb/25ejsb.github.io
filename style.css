@@ -167,11 +167,23 @@ body {
     font-size: 3.5rem;
   }
 }
+.header-section__callme {
+  position: absolute;
+  z-index: 2;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  width: 100%;
+  left: 50%;
+  top: 70%;
+}
 .header-section__headextra {
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 45%;
-  width: 50%;
+  width: 60%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
@@ -2485,14 +2497,11 @@ body {
   position: absolute;
   left: 40%;
   top: 85%;
-  text-decoration: none;
-  font-size: 1.5rem;
-  padding: 1.6rem;
-  text-align: right;
   border-radius: 0.4rem;
   color: white;
   overflow: hidden;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.4s;
 }
 @media only screen and (min-width: 75em) {
   .contact-section__main--whatsapp {
@@ -2519,25 +2528,35 @@ body {
     left: 45%;
   }
 }
-@media only screen and (max-width: 36em) {
-  .contact-section__main--whatsapp {
-    font-size: 1.75rem;
-  }
-}
-@media only screen and (max-width: 30em) {
-  .contact-section__main--whatsapp {
-    padding: 1.4rem 0.5rem;
-  }
+.contact-section__main__whatsapptext {
+  text-align: center;
+  width: 65%;
+  height: 20%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  left: 30%;
+  top: 37.5%;
+  transition: color 0.4s;
 }
 .contact-section__main__whatsappicon {
   position: absolute;
   background-image: url(images/whatsapp.png);
   background-size: 100% 100%;
   background-position: center;
-  width: 30%;
+  width: 35%;
   height: 100%;
   top: -3%;
   left: 0%;
+}
+.contact-section__main--whatsapp:hover .contact-section__main__whatsapptext {
+  color: green;
+}
+.contact-section__main--whatsapp:hover {
+  background-color: white;
 }
 .contact-section__main--sendtext {
   width: 100%;
