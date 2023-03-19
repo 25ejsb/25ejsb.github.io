@@ -398,9 +398,6 @@ $transition-time: .4s;
         &--picture {
             background-image: linear-gradient(to right bottom, rgba($nice-pink, 0.4), rgba($light-orange, 0.3)), url(images/adam3.jpg);      
             background-size: 100% 100%;
-            @include respond(phone) {
-                background-size: 100% 80%;
-            }
             background-position: center;
             width: 100%;
             height: 100%;
@@ -494,9 +491,7 @@ $transition-time: .4s;
         &--picture {
             background-image: linear-gradient(to right bottom, rgba($purple-dark, 0.4), rgba($purple-darker, 0.3)), url(images/img3.jpg);      
             background-size: 100% 100%;
-            @include respond(phone) {
-                background-size: 100% 80%;
-            }
+            background-repeat: no-repeat;
             background-position: center;
             width: 100%;
             height: 100%;
