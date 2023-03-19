@@ -492,7 +492,7 @@ $transition-time: .4s;
         overflow: hidden;
         top: 0;
         &--picture {
-            background-image: linear-gradient(to right bottom, rgba($purple, 0.4), rgba($purple-dark, 0.3)), url(images/adam3.jpg);      
+            background-image: linear-gradient(to right bottom, rgba($purple-dark, 0.4), rgba($purple-darker, 0.3)), url(images/img3.jpg);      
             background-size: 100% 100%;
             @include respond(phone) {
                 background-size: 100% 80%;

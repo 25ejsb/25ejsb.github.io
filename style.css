@@ -925,7 +925,7 @@ body {
   top: 0;
 }
 .scroll-to-frame__tiktok-section--picture {
-  background-image: linear-gradient(to right bottom, rgba(115, 19, 189, 0.4), rgba(60, 0, 107, 0.3)), url(images/adam3.jpg);
+  background-image: linear-gradient(to right bottom, rgba(60, 0, 107, 0.4), rgba(72, 18, 87, 0.3)), url(images/img3.jpg);
   background-size: 100% 100%;
   background-position: center;
   width: 100%;
