@@ -135,6 +135,7 @@ const image1 = document.querySelectorAll(".about-section__image1");
 const image2 = document.querySelectorAll(".about-section__image2");
 const testimonial = document.querySelectorAll(".testimonials-section__testimonial");
 const contactSection = document.querySelectorAll(".contact-section");
+const previoussoldboxes = document.querySelectorAll(".properties-sold-section__house");
 
 var aboutbg = document.querySelectorAll(".about-section__background");
 var singAboutBg = document.querySelector(".about-section__background");
@@ -161,6 +162,14 @@ window.addEventListener("scroll", function(){
                 box.classList.add("testimonials-section__testimonial--open");
             } else {
                 box.classList.remove("testimonials-section__testimonial--open");
+            }
+        })
+        previoussoldboxes.forEach(box => {
+            const boxTop = box.getBoundingClientRect().top;
+            if (boxTop < triggerBottom) {
+                box.classList.add("properties-sold-section__house--open");
+            } else {
+                box.classList.remove("properties-sold-section__house--open");
             }
         })
         image2.forEach(box => {
