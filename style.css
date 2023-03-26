@@ -2801,6 +2801,16 @@ body {
   background-size: 100% 100%;
   background-position: center;
 }
+@media only screen and (max-width: 36em) {
+  .properties-sold-section {
+    height: 80rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .properties-sold-section {
+    background-image: linear-gradient(to right bottom, rgba(45, 156, 156, 0.5), rgba(45, 204, 204, 0.3)), url(https://mfiles.alphacoders.com/734/734226.jpg);
+  }
+}
 .properties-sold-section__title {
   text-align: center;
   font-size: 6rem;
@@ -2829,6 +2839,11 @@ body {
   z-index: 3;
   padding: 1rem;
   margin: auto;
+}
+@media only screen and (max-width: 36em) {
+  .properties-sold-section__houses {
+    height: 65%;
+  }
 }
 .properties-sold-section__houses--title {
   font-size: 2.5rem;
@@ -2892,6 +2907,13 @@ body {
   transform: translate(-200%);
   transition: all 1s;
 }
+@media only screen and (max-width: 36em) {
+  .properties-sold-section__houses--1 {
+    height: 27.5%;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
 .properties-sold-section__houses--2 {
   position: relative;
   background-color: whitesmoke;
@@ -2901,6 +2923,13 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   transform: translate(200%);
   transition: all 1s;
+}
+@media only screen and (max-width: 36em) {
+  .properties-sold-section__houses--2 {
+    height: 27.5%;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
 }
 .properties-sold-section__houses--3 {
   position: relative;
@@ -2912,6 +2941,13 @@ body {
   transform: translate(-200%);
   transition: all 1s;
 }
+@media only screen and (max-width: 36em) {
+  .properties-sold-section__houses--3 {
+    height: 27.5%;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
 .properties-sold-section__houses--4 {
   position: relative;
   background-color: whitesmoke;
@@ -2921,6 +2957,13 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   transform: translate(200%);
   transition: all 1s;
+}
+@media only screen and (max-width: 36em) {
+  .properties-sold-section__houses--4 {
+    height: 27.5%;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
 }
 .properties-sold-section__house--open {
   transform: translate(0%);
