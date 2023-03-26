@@ -2839,6 +2839,11 @@ body {
   padding-left: 1rem;
   color: rgb(50, 50, 50);
 }
+@media only screen and (max-width: 66em) {
+  .properties-sold-section__houses--title {
+    font-size: 2rem;
+  }
+}
 @media only screen and (max-width: 61.9em) {
   .properties-sold-section__houses--title {
     font-size: 2rem;
