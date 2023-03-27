@@ -7,7 +7,7 @@
         height: 80rem;
     }
     z-index: 2;
-    background-image: linear-gradient(to right bottom, rgba($dark-blue, 0.5), rgba($nice-blue, 0.3)), url(https://thumbs.dreamstime.com/b/boston-skyline-panorama-19344409.jpg);
+    background-image: linear-gradient(to right bottom, rgba($dark-blue, 0.5), rgba($nice-blue, 0.3)), url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/boston-skyline-panoramic-boston-harbor-joann-vitali.jpg);
     @include respond(phone) {
         background-image: linear-gradient(to right bottom, rgba($dark-blue, 0.5), rgba($nice-blue, 0.3)), url(https://mfiles.alphacoders.com/734/734226.jpg);
     }
