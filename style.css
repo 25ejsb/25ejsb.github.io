@@ -552,11 +552,6 @@ body {
   text-align: center;
   overflow: hidden;
 }
-@media only screen and (max-width: 30em) {
-  .scroll-to-frame__frame {
-    width: 75%;
-  }
-}
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__frame {
     height: 30%;
@@ -564,17 +559,13 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__frame {
-    height: 25%;
+    height: 45%;
+    width: 60%;
   }
 }
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 36em) {
   .scroll-to-frame__frame {
-    height: 22.5%;
-  }
-}
-@media only screen and (max-width: 30em) {
-  .scroll-to-frame__frame {
-    top: 77.5%;
+    top: 72.5%;
   }
 }
 .scroll-to-frame__video {
@@ -698,7 +689,7 @@ body {
   color: white;
   position: absolute;
   left: 50%;
-  top: 55%;
+  top: 45%;
   width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -720,6 +711,12 @@ body {
   left: 0;
   top: 0;
   overflow: hidden;
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__facebook-section {
+    width: 100%;
+    height: 33.3%;
+  }
 }
 .scroll-to-frame__facebook-section--picture {
   background-image: linear-gradient(to right bottom, rgba(45, 156, 156, 0.4), rgba(0, 0, 230, 0.3)), url(images/adam2.jpg);
@@ -766,7 +763,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__facebook-section--title {
-    font-size: 2.25rem;
+    font-size: 3rem;
   }
 }
 .scroll-to-frame__facebook-section--link {
@@ -800,7 +797,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__facebook-section--link {
-    font-size: 0.7rem;
+    font-size: 2rem;
   }
 }
 .scroll-to-frame__facebook-section:hover .scroll-to-frame__facebook-section--bg {
@@ -825,6 +822,14 @@ body {
   left: 33.3%;
   overflow: hidden;
   top: 0;
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__instagram-section {
+    width: 100%;
+    height: 33.3%;
+    top: 33.3%;
+    left: 0;
+  }
 }
 .scroll-to-frame__instagram-section--picture {
   background-image: linear-gradient(to right bottom, rgba(252, 3, 173, 0.4), rgba(245, 173, 20, 0.3)), url(images/adam3.jpg);
@@ -872,7 +877,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__instagram-section--title {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .scroll-to-frame__instagram-section--link {
@@ -906,7 +911,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__instagram-section--link {
-    font-size: 0.7rem;
+    font-size: 2rem;
   }
 }
 .scroll-to-frame__instagram-section:hover .scroll-to-frame__instagram-section--bg {
@@ -931,6 +936,14 @@ body {
   left: 66.6%;
   overflow: hidden;
   top: 0;
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__tiktok-section {
+    width: 100%;
+    height: 33.3%;
+    top: 66.6%;
+    left: 0;
+  }
 }
 .scroll-to-frame__tiktok-section--picture {
   background-image: linear-gradient(to right bottom, rgba(60, 0, 107, 0.4), rgba(72, 18, 87, 0.3)), url(images/img3.jpg);
@@ -979,7 +992,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__tiktok-section--title {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
 .scroll-to-frame__tiktok-section--link {
@@ -1013,7 +1026,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__tiktok-section--link {
-    font-size: 0.7rem;
+    font-size: 2rem;
   }
 }
 .scroll-to-frame__tiktok-section:hover .scroll-to-frame__tiktok-section--bg {
@@ -1876,7 +1889,12 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .testimonials-section__header {
-    font-size: 5.5rem;
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .testimonials-section__header {
+    top: 2.5%;
   }
 }
 .testimonials-section__paras {
@@ -1889,6 +1907,11 @@ body {
   position: absolute;
   left: 0;
   top: 10%;
+}
+@media only screen and (max-width: 36em) {
+  .testimonials-section__paras {
+    top: 5%;
+  }
 }
 .testimonials-section__stars {
   display: flex;
@@ -2392,12 +2415,12 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .contact-section__main {
-    left: 22.5%;
+    left: 15%;
   }
 }
 @media only screen and (max-width: 36em) {
   .contact-section__main {
-    width: 60%;
+    width: 70%;
   }
 }
 .contact-section__main--name {

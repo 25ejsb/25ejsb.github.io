@@ -23,12 +23,15 @@
         color: transparent;
         font-size: 7rem;
         @include respond(phone) {
-            font-size: 5.5rem;
+            font-size: 5rem;
         }
         width: 100%;
         position: absolute;
         left: 50%;
         top: 5%;
+        @include respond(phone) {
+            top: 2.5%;
+        }
         transform: translate(-50%, -50%);
         text-align: center;
         text-transform: uppercase;
@@ -45,6 +48,9 @@
         position: absolute;
         left: 0;
         top: 10%;
+        @include respond(phone) {
+            top: 5%;
+        }
     }
     &__stars {
         display: flex;

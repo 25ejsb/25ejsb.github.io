@@ -149,26 +149,20 @@ $transition-time: .4s;
         background-size: 100% 100%;
         background-position: center;
         width: 60%;
-        
-        @include respond(small-phone) {
-            width: 75%;
-        }
         height: 35%;
         @include respond(tab-port) {
             height: 30%;
         }
         @include respond(phone) {
-            height: 25%;
-        }
-        @include respond(small-phone) {
-            height: 22.5%;
+            height: 45%;
+            width: 60%;
         }
         position: relative;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
         left: 50%;
         top: 80%;
-        @include respond(small-phone) {
-            top: 77.5%;
+        @include respond(phone) {
+            top: 72.5%;
         }
         transform: translate(-50%, -50%);
         text-align: center;
@@ -279,7 +273,7 @@ $transition-time: .4s;
         color: white;
         position: absolute;
         left: 50%;
-        top: 55%;
+        top: 45%;
         width: 100%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -302,6 +296,10 @@ $transition-time: .4s;
         position: absolute;
         left: 0;
         top: 0;
+        @include respond(phone) {
+            width: 100%;
+            height: 33.3%;
+        }
         overflow: hidden;  
         &--picture {
             background-image: linear-gradient(to right bottom, rgba($dark-blue, 0.4), rgba($navy-blue, 0.3)), url(images/adam2.jpg);  
@@ -340,7 +338,7 @@ $transition-time: .4s;
                 font-size: 3.75rem;
             }
             @include respond(phone) {
-                font-size: 2.25rem;
+                font-size: 3rem;
             }
             transform: translate(-50%, -50%);
             transition: all .5s;
@@ -365,7 +363,7 @@ $transition-time: .4s;
                 font-size: 0.95rem;
             }
             @include respond(phone) {
-                font-size: 0.7rem;
+                font-size: 2rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;
@@ -395,6 +393,12 @@ $transition-time: .4s;
         left: 33.3%;
         overflow: hidden;
         top: 0;
+        @include respond(phone) {
+            width: 100%;
+            height: 33.3%;
+            top: 33.3%;
+            left: 0;
+        }
         &--picture {
             background-image: linear-gradient(to right bottom, rgba($nice-pink, 0.4), rgba($light-orange, 0.3)), url(images/adam3.jpg);      
             background-size: 100% 100%;
@@ -435,7 +439,7 @@ $transition-time: .4s;
                 font-size: 3.25rem;
             }
             @include respond(phone) {
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
         }
         &--link {
@@ -458,7 +462,7 @@ $transition-time: .4s;
                 font-size: 0.95rem;
             }
             @include respond(phone) {
-                font-size: 0.7rem;
+                font-size: 2rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;
@@ -488,6 +492,12 @@ $transition-time: .4s;
         left: 66.6%;
         overflow: hidden;
         top: 0;
+        @include respond(phone) {
+            width: 100%;
+            height: 33.3%;
+            top: 66.6%;
+            left: 0;
+        }
         &--picture {
             background-image: linear-gradient(to right bottom, rgba($purple-dark, 0.4), rgba($purple-darker, 0.3)), url(images/img3.jpg);      
             background-size: 100% 100%;
@@ -529,7 +539,7 @@ $transition-time: .4s;
                 font-size: 5rem;
             }
             @include respond(phone) {
-                font-size: 3.5rem;
+                font-size: 4rem;
             }
         }
         &--link {
@@ -552,7 +562,7 @@ $transition-time: .4s;
                 font-size: 0.95rem;
             }
             @include respond(phone) {
-                font-size: 0.7rem;
+                font-size: 2rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;
