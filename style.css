@@ -560,7 +560,7 @@ body {
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__frame {
     height: 45%;
-    width: 60%;
+    width: 50%;
   }
 }
 @media only screen and (max-width: 36em) {
@@ -689,11 +689,16 @@ body {
   color: white;
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 55%;
   width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
   text-transform: uppercase;
+}
+@media only screen and (max-width: 36em) {
+  .scroll-to-frame__socialheader {
+    top: 45%;
+  }
 }
 .scroll-to-frame__bottomtext {
   color: white;

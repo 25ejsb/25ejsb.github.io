@@ -155,7 +155,7 @@ $transition-time: .4s;
         }
         @include respond(phone) {
             height: 45%;
-            width: 60%;
+            width: 50%;
         }
         position: relative;
         box-shadow: 0 2rem 2rem rgba($black, 0.5);
@@ -273,7 +273,10 @@ $transition-time: .4s;
         color: white;
         position: absolute;
         left: 50%;
-        top: 45%;
+        top: 55%;
+        @include respond(phone) {
+            top: 45%;
+        }
         width: 100%;
         transform: translate(-50%, -50%);
         text-align: center;
