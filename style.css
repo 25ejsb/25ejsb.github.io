@@ -461,6 +461,7 @@ body {
   width: 0%;
   height: 0%;
   transition: all 0.4s;
+  transform: rotate(12deg);
   font-size: 0rem;
 }
 .scroll-to-frame__header {
@@ -490,7 +491,7 @@ body {
   text-decoration: none;
   color: rgb(30, 30, 30);
   z-index: 999;
-  width: 15rem;
+  width: 0rem;
   margin-bottom: 5rem;
   padding: 0rem 0rem;
   height: 10%;
@@ -498,7 +499,7 @@ body {
   background-size: 100% 100%;
   border-radius: 0.6rem;
   color: white;
-  transition: box-shadow 0.5s;
+  transition: all 0.5s;
   display: inline-block;
 }
 .scroll-to-frame__link:hover {
@@ -1061,6 +1062,7 @@ body {
   height: 100vh;
   display: inline-block;
   font-size: 2.25rem;
+  transform: rotate(0deg);
 }
 @media only screen and (min-width: 75em) {
   .opened {
@@ -1085,7 +1087,7 @@ body {
 .opened .scroll-to-frame__link {
   font-size: 3rem;
   transition: all 0.4s;
-  padding: 7rem 6rem;
+  padding: 7rem 7rem;
 }
 @media only screen and (max-width: 36em) {
   .opened .scroll-to-frame__link {

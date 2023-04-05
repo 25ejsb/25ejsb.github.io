@@ -68,6 +68,7 @@ $transition-time: .4s;
     width: 0%;
     height: 0%;
     transition: all $transition-time;
+    transform: rotate(12deg);
     font-size: 0rem;
     &__header {
         position: absolute;
@@ -96,7 +97,7 @@ $transition-time: .4s;
         text-decoration: none;
         color: $dark;
         z-index: 999;
-        width: 15rem;
+        width: 0rem;
         margin-bottom: 5rem;
         padding: 0rem 0rem;
         height: 10%;
@@ -104,7 +105,7 @@ $transition-time: .4s;
         background-size: 100% 100%;
         border-radius: 0.6rem;
         color: white;
-        transition: box-shadow .5s;
+        transition: all .5s;
         &:hover {
             outline: none;
             box-shadow: 0 0.5rem 1rem rgba($black, 0.5);
@@ -600,6 +601,7 @@ $transition-time: .4s;
     height: 100vh;
     display: inline-block;
     font-size: 2.25rem;
+    transform: rotate(0deg);
     @include respond(big-desktop) {
         font-size: 2.15rem;
     }
@@ -615,7 +617,7 @@ $transition-time: .4s;
     .scroll-to-frame__link {
         font-size: 3rem;
         transition: all $transition-time;
-        padding: 7rem 6rem;
+        padding: 7rem 7rem;
         @include respond(phone) {
             width: 15%;
         }
