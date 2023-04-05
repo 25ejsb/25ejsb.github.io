@@ -1,9 +1,9 @@
 .about-section {
     position: relative;
     background-color: black;
-    height: 170rem;
+    height: 120rem;
     @include respond(small-phone) {
-        height: 180rem;
+        height: 140rem;
     }
     z-index: 2;
     overflow: hidden;
@@ -16,23 +16,24 @@
     }
     &__aboutme {
         width: 60%;
-        height: 15%;
-        @include respond(phone) {
-            height: 11.5%;
-        }
+        height: 20%;
+        // @include respond(phone) {
+        //     height: 11.5%;
+        // }
         position: absolute;
         left: 50%;
-        top: 10%;
+        top: 15%;
         transform: translate(-50%, -50%);
         text-align: center;
         border-bottom: 2px solid white;
+        display: flex;
         &--row1 {
-            @include respond(big-monitor) {
-                transform: translate(-10%, 13%);
-            }
-            @include respond(small-phone) {
-                transform: translate(-30%);
-            }
+            width: 50%;
+            height: 100%;
+        }
+        &--row2 {
+            width: 50%;
+            height: 100%;
         }
     }
     &__main {
@@ -56,6 +57,8 @@
         shape-outside: circle(55%);
         width: 20rem;
         height: 20rem;
+        position: absolute;
+        transform: translate(-50%, 10%);
         display: inline-block;
     }
     &__header {
@@ -145,25 +148,27 @@
 
     &__para {
         position: absolute;
-        left: 50%;
-        top: 25%;
+        left: 100%;
+        top: 37%;
+        @include respond(tab-port) {
+            top: 30%;
+        }
         @include respond(small-phone) {
-            top: 22.5%;
+            top: 27.5%;
         }
         color: white;
         text-transform: uppercase;
-        width: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
     }
 
     &__paras {
        position: absolute;
        left: 50%;
-       top: 50%;
+       top: 70%;
        @include respond(tab-port) {
-        top: 45%;
-       }
-       @include respond(phone) {
-        top: 45%;
+        top: 60%;
        }
        transform: translate(-50%, -50%);
        font-size: 2.25rem;
@@ -213,10 +218,6 @@
         text-transform: uppercase;
         width: 100%;
         color: transparent;
-        top: 50%;
-        @include respond(phone) {
-            top: 45%;
-        }
         transform: translate(-50%, -50%);
         &--2 {
             top: 74%;
@@ -231,7 +232,7 @@
     }
 
     &__image1 {
-        height: 20%;
+        height: 30%;
         position: absolute;
         top: 50%;
         left: -20%;
@@ -244,11 +245,11 @@
         padding: 12rem 13rem;
         @include respond(tab-port) {
             padding: 5rem 8rem;
-            height: 15%;
+            height: 25%;
         }
         @include respond(phone) {
             padding: 4rem 8rem;
-            height: 12%;
+            height: 22%;
         }
         display: block;
         transition: all .5s;
@@ -284,7 +285,7 @@
     }
 
     &__image2 {
-        height: 20%;
+        height: 30%;
         position: absolute;
         top: 50%;
         left: 120%;
@@ -296,11 +297,11 @@
         padding: 12rem 13rem;
         @include respond(tab-port) {
             padding: 5rem 8rem;
-            height: 15%;
+            height: 25%;
         }
         @include respond(phone) {
             padding: 4rem 8rem;
-            height: 12%;
+            height: 22%;
         }
         border-radius: 0.6rem;
         background-repeat: no-repeat;

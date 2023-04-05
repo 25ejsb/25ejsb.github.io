@@ -1128,13 +1128,13 @@ body {
 .about-section {
   position: relative;
   background-color: black;
-  height: 170rem;
+  height: 120rem;
   z-index: 2;
   overflow: hidden;
 }
 @media only screen and (max-width: 30em) {
   .about-section {
-    height: 180rem;
+    height: 140rem;
   }
 }
 .about-section__background {
@@ -1146,28 +1146,22 @@ body {
 }
 .about-section__aboutme {
   width: 60%;
-  height: 15%;
+  height: 20%;
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 15%;
   transform: translate(-50%, -50%);
   text-align: center;
   border-bottom: 2px solid white;
+  display: flex;
 }
-@media only screen and (max-width: 36em) {
-  .about-section__aboutme {
-    height: 11.5%;
-  }
+.about-section__aboutme--row1 {
+  width: 50%;
+  height: 100%;
 }
-@media only screen and (max-width: 66em) {
-  .about-section__aboutme--row1 {
-    transform: translate(-10%, 13%);
-  }
-}
-@media only screen and (max-width: 30em) {
-  .about-section__aboutme--row1 {
-    transform: translate(-30%);
-  }
+.about-section__aboutme--row2 {
+  width: 50%;
+  height: 100%;
 }
 .about-section__main {
   position: absolute;
@@ -1184,6 +1178,8 @@ body {
   shape-outside: circle(55%);
   width: 20rem;
   height: 20rem;
+  position: absolute;
+  transform: translate(-50%, 10%);
   display: inline-block;
 }
 @media only screen and (max-width: 36em) {
@@ -1324,21 +1320,28 @@ body {
 }
 .about-section__para {
   position: absolute;
-  left: 50%;
-  top: 25%;
+  left: 100%;
+  top: 37%;
   color: white;
   text-transform: uppercase;
-  width: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+@media only screen and (max-width: 48em) {
+  .about-section__para {
+    top: 30%;
+  }
 }
 @media only screen and (max-width: 30em) {
   .about-section__para {
-    top: 22.5%;
+    top: 27.5%;
   }
 }
 .about-section__paras {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 70%;
   transform: translate(-50%, -50%);
   font-size: 2.25rem;
   text-align: center;
@@ -1349,12 +1352,7 @@ body {
 }
 @media only screen and (max-width: 48em) {
   .about-section__paras {
-    top: 45%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .about-section__paras {
-    top: 45%;
+    top: 60%;
   }
 }
 @media only screen and (min-width: 75em) {
@@ -1386,7 +1384,6 @@ body {
   text-transform: uppercase;
   width: 100%;
   color: transparent;
-  top: 50%;
   transform: translate(-50%, -50%);
 }
 @media only screen and (min-width: 75em) {
@@ -1419,11 +1416,6 @@ body {
     font-size: 3rem;
   }
 }
-@media only screen and (max-width: 36em) {
-  .about-section__titlepara {
-    top: 45%;
-  }
-}
 .about-section__titlepara--2 {
   top: 74%;
   left: 50%;
@@ -1439,7 +1431,7 @@ body {
   }
 }
 .about-section__image1 {
-  height: 20%;
+  height: 30%;
   position: absolute;
   top: 50%;
   left: -20%;
@@ -1457,13 +1449,13 @@ body {
 @media only screen and (max-width: 48em) {
   .about-section__image1 {
     padding: 5rem 8rem;
-    height: 15%;
+    height: 25%;
   }
 }
 @media only screen and (max-width: 36em) {
   .about-section__image1 {
     padding: 4rem 8rem;
-    height: 12%;
+    height: 22%;
   }
 }
 .about-section__image1--open {
@@ -1511,7 +1503,7 @@ body {
   }
 }
 .about-section__image2 {
-  height: 20%;
+  height: 30%;
   position: absolute;
   top: 50%;
   left: 120%;
@@ -1529,13 +1521,13 @@ body {
 @media only screen and (max-width: 48em) {
   .about-section__image2 {
     padding: 5rem 8rem;
-    height: 15%;
+    height: 25%;
   }
 }
 @media only screen and (max-width: 36em) {
   .about-section__image2 {
     padding: 4rem 8rem;
-    height: 12%;
+    height: 22%;
   }
 }
 .about-section__image2--open {
