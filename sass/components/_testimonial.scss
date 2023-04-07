@@ -83,8 +83,12 @@
         
         &--header {
             font-size: 5rem;
+            @include respond(small-phone) {
+                font-size: 4rem;
+            }
             color: black;
-            width: 100%;
+            width: 95%;
+            margin: 0 auto;
             text-align: center;
             text-transform: uppercase;
             background-image: linear-gradient(to right, $cyan, $blue-coral);

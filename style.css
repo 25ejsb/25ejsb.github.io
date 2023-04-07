@@ -1950,13 +1950,19 @@ body {
 .testimonials-section__testimonial--header {
   font-size: 5rem;
   color: black;
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   background-image: linear-gradient(to right, rgb(0, 255, 251), rgb(50, 168, 166));
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: 1rem;
+}
+@media only screen and (max-width: 30em) {
+  .testimonials-section__testimonial--header {
+    font-size: 4rem;
+  }
 }
 .testimonials-section__testimonial--para {
   text-align: center;
