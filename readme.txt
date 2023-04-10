@@ -1,5 +1,4 @@
-Add a media query for vertical page
-fix background attachment
+change 'message me' to something with a consultation
+add request consultation on the contact page
 
-You have to commit a message and that's why loading takes forever
-quit commit then sync changes
+name, email, phone number, request consultation time
