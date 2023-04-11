@@ -46,6 +46,10 @@ newsend.addEventListener("click", () => {
         document.querySelector(".dates-label").style = "color:black;";
     }
     if (newname.value != "" && newemail.value != "" && newphone.value != "" && newdates.value != "") {
-        sendEmail()
+        sendEmail();
+        newname.value = "";
+        newemail.value = "";
+        newphone.value = "",
+        newdates.value = ""
     }
 });
