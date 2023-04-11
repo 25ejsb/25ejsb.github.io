@@ -2476,6 +2476,7 @@ body {
   left: 10%;
   top: 85%;
   width: 20%;
+  overflow: hidden;
   height: 9%;
   background-image: linear-gradient(to right bottom, #e35260, red);
   text-decoration: none;
@@ -2506,13 +2507,47 @@ body {
     width: 30%;
   }
 }
-.contact-section__main--send:hover {
+.contact-section__main--meet {
+  background-color: green;
+  width: 30%;
+  height: 9%;
+  position: absolute;
+  left: 80%;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 89.5%;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  color: white;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to right, #f5ad14, #cc9114);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.4s;
+  background-size: 250%;
   transition: all 0.5s;
-  background-image: linear-gradient(to right, #34eb37, #2f9431);
+}
+@media only screen and (max-width: 48em) {
+  .contact-section__main--meet {
+    font-size: 1.75rem;
+  }
+}
+@media only screen and (max-width: 61.9em) {
+  .contact-section__main--meet {
+    left: 50%;
+    top: 77.5%;
+  }
+}
+.contact-section__main--meet:hover {
+  background-position: -100%;
 }
 .contact-section__main--whatsapp {
   background-color: green;
-  width: 25%;
+  width: 20%;
   height: 9%;
   position: absolute;
   left: 40%;
@@ -2583,6 +2618,20 @@ body {
   height: 100%;
   font-size: 2rem;
   z-index: 2;
+  position: relative;
+}
+.contact-section__main--sendbg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #34eb37, #2f9431);
+  transition: all 0.5s;
+}
+.contact-section__main--send:hover .contact-section__main--sendbg {
+  opacity: 1;
 }
 .contact-section__main--field {
   background-image: linear-gradient(#e35260, red);
@@ -2775,7 +2824,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   margin-top: 3rem;
-  font-size: 2rem;
+  font-size: 1.75rem;
   opacity: 0;
   transform: translate(0, -70%);
   transition: all 0.5s;

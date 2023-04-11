@@ -1,0 +1,102 @@
+@media only screen and (max-width:66em) {
+    body {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-height: 579.2px) {
+    .main {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width:61.9em) {
+    body {
+        font-size: 56.25%;
+    }
+    .info h2 {
+        font-size: 1.3rem;
+    }
+    
+    .info p {
+        font-size: 1rem;
+    }
+    .website:link, .website:visited, .send:link, .send:visited {
+        font-size: 1.25rem;
+    }
+    .consultation-header {
+        font-size: 1.75rem;
+    }
+    .label {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:48em) {
+    body {
+        font-size: 50%;
+    }
+    .info h2 {
+        font-size: 1.1rem;
+    }
+    
+    .info p {
+        font-size: 0.8rem;
+    }
+    .website:link, .website:visited, .send:link, .send:visited {
+        font-size: 1.1rem;
+    }
+    .consultation-header {
+        font-size: 1.55rem;
+    }
+    .label {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    .input-box {
+        font-size: 1.5rem;
+    }
+    .contact-part i {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:36em) {
+    body {
+        font-size: 50%;
+    }
+    .box {
+        flex-direction: column;
+    }
+    .row {
+        width: 100%;
+        height: 50%;
+    }
+    .contact-part i {
+        font-size: 1.5rem;
+    }
+    .consultation-header {
+        margin-bottom: 0.5rem;
+    }
+    .info h2 {
+        font-size: 0.9rem;
+    }
+    
+    .info p {
+        font-size: 0.6rem;
+    }
+    .website:link, .website:visited, .send:link, .send:visited {
+        font-size: 0.8rem;
+    }
+    .label-div {
+        margin-bottom: 0.2rem;
+    }
+    .input-box {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .dates {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}

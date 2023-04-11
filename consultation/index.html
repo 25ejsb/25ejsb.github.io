@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/f0b4d212f8.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="mediaquery.css" rel="stylesheet" type="text/css">
+    <title>Shulman Realtor - Set Up A Time To Meet Me</title>
+    <link rel="icon" href="../images/logocopy.png" type="image/x-icon">
+</head>
+<body>
+    <section id="sent">
+        <div class="main">
+            <div class="background-img">&nbsp;</div>
+            <div class="box animate__animated animate__backInLeft animate__delay-0.1s">
+                <div class="row">
+                    <h1 class="consultation-header">Set Up A Consultation</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188759.8864944259!2d-71.0110817683631!3d42.33456547504836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e379f2911bc4a5%3A0x4aa7d2587174d526!2sAdam%20Shulman%2C%20Realtor%20-%20RE%2FMAX%20Destiny!5e0!3m2!1sen!2sus!4v1681166012353!5m2!1sen!2sus" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="contact-part">
+                        <i class="fas fa-location-arrow"></i>
+                        <div class="info">
+                            <h2>Address</h2>
+                            <p>907 Massachusetts Ave, Cambridge MA 02139</p>
+                        </div>
+                    </div>
+                    <div class="contact-part">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <h2>Email</h2>
+                            <p>adam@shulmanrealtor.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-part">
+                        <i class="fas fa-phone"></i>
+                        <div class="info">
+                            <h2>Phone</h2>
+                            <p>(617) 872-9731</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label-div">
+                        <label for="name" class="label name-label">Name:</label>
+                    </div>
+                    <input id="name" type="text" class="name input-box" name="name" required>
+                    <div class="label-div">
+                        <label for="email" class="label email-label">Email:</label>
+                    </div>
+                    <input id="email" type="email" class="email input-box" name="email" required>
+                    <div class="label-div">
+                        <label for="phone" class="label phone-label">Phone Number:</label>
+                    </div>
+                    <input id="phone" type="tel" class="phone input-box" name="phone" required>
+                    <div class="label-div">
+                        <label for="dates" class="label dates-label">Days and Times:</label>
+                    </div>
+                    <textarea name="dates" id="dates" class="dates" placeholder="Dates and Times That Work Best" required></textarea>
+                    <div class="extra">
+                        <a href="#sent" class="send">Submit</a>
+                        <a href="/" class="website">Back To Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_e5QqTyM8AtPOxMClT");
+        })();
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
