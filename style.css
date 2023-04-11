@@ -411,6 +411,11 @@ body {
   shape-outside: circle(55%);
   transition: all 0.5s;
 }
+@media only screen and (max-height: 579.2px) {
+  .scroll {
+    overflow: auto;
+  }
+}
 @media only screen and (max-width: 48em) {
   .scroll {
     clip-path: circle(35%);
@@ -1068,6 +1073,12 @@ body {
   display: inline-block;
   font-size: 2.25rem;
   transform: rotate(0deg);
+}
+@media only screen and (max-height: 579.2px) {
+  .opened {
+    height: 75rem;
+    overflow: auto;
+  }
 }
 @media only screen and (min-width: 75em) {
   .opened {
@@ -1876,6 +1887,11 @@ body {
   background-image: transparent;
   background-size: 100% 100%;
   background-position: center;
+}
+@media only screen and (max-width: 30em) {
+  .testimonials-section {
+    height: 640rem;
+  }
 }
 .testimonials-section__mobile-bg {
   background-image: url(images/testimonial-image.jpg);
