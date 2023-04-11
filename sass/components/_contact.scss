@@ -162,7 +162,7 @@
             width: 30%;
             height: 9%;
             position: absolute;
-            left: 80%;
+            left: 77.5%;
             text-decoration: none;
             font-size: 2rem;
             @include respond(tab-port) {
@@ -198,6 +198,9 @@
             @include respond(big-desktop) {
                 width: 18%;
             }
+            @include respond(big-monitor) {
+                width: 24%;
+            }
             @include respond(tab-land) {
                 width: 29%;
             }
@@ -209,7 +212,13 @@
             }
             height: 9%;
             position: absolute;
-            left: 40%;
+            left: 37.5%;
+            @include respond(big-monitor) {
+                left: 35%;
+            }
+            @include respond(tab-land) {
+                left: 37.5%;
+            }
             @include respond(phone) {
                 left: 45%;
             }

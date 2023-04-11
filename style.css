@@ -2517,7 +2517,7 @@ body {
   width: 30%;
   height: 9%;
   position: absolute;
-  left: 80%;
+  left: 77.5%;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
@@ -2555,7 +2555,7 @@ body {
   width: 20%;
   height: 9%;
   position: absolute;
-  left: 40%;
+  left: 37.5%;
   top: 85%;
   border-radius: 0.4rem;
   color: white;
@@ -2566,6 +2566,11 @@ body {
 @media only screen and (min-width: 75em) {
   .contact-section__main--whatsapp {
     width: 18%;
+  }
+}
+@media only screen and (max-width: 66em) {
+  .contact-section__main--whatsapp {
+    width: 24%;
   }
 }
 @media only screen and (max-width: 61.9em) {
@@ -2581,6 +2586,16 @@ body {
 @media only screen and (max-width: 36em) {
   .contact-section__main--whatsapp {
     width: 42%;
+  }
+}
+@media only screen and (max-width: 66em) {
+  .contact-section__main--whatsapp {
+    left: 35%;
+  }
+}
+@media only screen and (max-width: 61.9em) {
+  .contact-section__main--whatsapp {
+    left: 37.5%;
   }
 }
 @media only screen and (max-width: 36em) {

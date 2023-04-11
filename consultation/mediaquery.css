@@ -4,6 +4,12 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .info p {
+        font-size: 1rem;
+    }
+}
+
 @media only screen and (max-height: 579.2px) {
     .main {
         height: 750px;
