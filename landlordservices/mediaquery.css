@@ -56,6 +56,9 @@
         font-size: 1.1rem;
         position: unset;
     }
+    .transition {
+        height: 175rem;
+    }
     .transition-row {
         width: 100%;
         height: 20%;
