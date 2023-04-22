@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.8)), url(/images/adam2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    color: white;
+    padding: 5% 0;
+}
+.header h1 {
+    font-size: 3.25rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.header h3 {
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background-image: linear-gradient(to right bottom, #f5ad14, #cc9114);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 3rem;
+}
+
+.header-logo {
+    background-image: url(/images/logocopy.png);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 3rem;
+}
+
+.header-buttons {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    background-color: #846c38;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.header-buttons a:hover {
+    transform: translate(0, -3%);
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.3);
+}
+
+/* Transition */
+
+.transition {
+    position: relative;
+    height: 150rem;
+    display: flex;
+    background-color: #fafafa;
+}
+
+.transition-row {
+    width: 33.33333%;
+    position: absolute;
+}
+
+.transition-row--1 {
+    height: 90%;
+    top: 10%;
+    left: 0;
+}
+
+.transition-row--2 {
+    height: 35%;
+    top: 65%;
+    left: 33.33333333%;
+}
+
+.transition-row--3 {
+    height: 60%;
+    top: 40%;
+    left: 66.6666666%;
+}
+
+.transition-image {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    filter: blur(0.5px);
+}
+
+.transition-image--1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/picture3.jpg);
+    background-size: 150% 100%;
+}
+
+.transition-image--2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/header2.jpg);
+}
+
+.transition-image--3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/picture1.webp);
+    background-size: 150% 100%;
+}
+
+/* About */
+
+.about {
+    padding: 5% 0;
+    text-align: center;
+}
+
+.about h2 {
+    width: 100%;
+    height: 10%;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to right bottom, #f5ad14, #cc9114);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+
+.main-para {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background-color: #252525;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.footer__header {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: coral;
+}
+
+.footer__para {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: .5rem;
+}
+
+.footer-instagram, .footer-facebook, .footer-tiktok {
+    padding: 0.5rem;
+    margin: 3px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid white;
+    fill: white;
+    transition: all .5s;
+}
+
+.footer-instagram:hover, .footer-facebook:hover, .footer-tiktok:hover {
+    fill: coral;
+    border: 2px solid coral;
+}
+
+.footer-instagram--icon, .footer-facebook--icon, .footer-tiktok--icon {
+    width: 70%;
+    height: 70%;
+}
+
+.footer-instagram--iconextra, .footer-facebook--iconextra, .footer-tiktok--iconextra {
+    width: 70%;
+    height: 70%;
+}

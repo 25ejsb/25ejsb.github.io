@@ -1,10 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+
 .main {
     height: 100vh;
-    position: relative;
-    left: 0;
-    top: 0;
     overflow: hidden;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
 }
 
 .main-info {
@@ -12,19 +16,70 @@
     height: 75rem;
 }
 
+.title {
+    z-index: 2;
+    color: white;
+    text-transform: uppercase;
+    width: 50%;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin-bottom: 3rem;
+}
+
+.main p {
+    z-index: 2;
+    font-size: 3.5rem;
+    color: white;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.back {
+    z-index: 2;
+    background-color: #846c38;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    transition: all .5s;
+    font-size: 2.5rem;
+}
+
+.back:hover {
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.3);
+    transform: translate(0, -2%);
+}
+
+.title-para {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    z-index: 2;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right bottom, #f5ad14, #cc9114);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 5rem;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
 }
 
 .error-bg {
     height: 100vh;
     width: 100%;
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
 }
@@ -36,14 +91,9 @@ body {
 }
 
 .logo {
-    width: 20%;
-    height: 20%;
-    position: absolute;
+    width: 15rem;
+    height: 15rem;
     user-select: none;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -50%);
-    text-align: center;
     background-image: url(../images/logo.png);
     background-size: 100% 100%;
     background-position: center;

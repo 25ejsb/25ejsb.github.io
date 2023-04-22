@@ -93,14 +93,9 @@ body {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 12.5%;
+  width: 15rem;
   height: 19.5%;
   user-select: none;
-}
-@media only screen and (max-width: 30em) {
-  .header-section__logo {
-    width: 20%;
-  }
 }
 .header-section__img {
   position: absolute;
@@ -165,7 +160,7 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .header-section__headtext {
-    font-size: 3.5rem;
+    font-size: 3.65rem;
   }
 }
 .header-section__callme {
@@ -227,16 +222,37 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .header-section__headextra {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 .header-section__buttons {
+  margin-top: 3rem;
   position: absolute;
   left: 50%;
   top: 80%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 70%;
+  width: 50%;
+}
+@media only screen and (max-width: 61.9em) {
+  .header-section__buttons {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .header-section__buttons {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .header-section__buttons {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .header-section__buttons {
+    width: 100%;
+  }
 }
 
 .btn {
@@ -266,6 +282,12 @@ body {
   color: white;
   font-size: 2rem;
   transition: all 0.5s;
+  margin: 3px;
+}
+@media only screen and (max-width: 30em) {
+  .btn__fullfont {
+    font-size: 1.5rem;
+  }
 }
 
 .row {
