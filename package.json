@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.56.1"
+    "live-server": "^1.2.2",
+    "sass": "^1.62.0"
   },
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.22"
   }
 }
