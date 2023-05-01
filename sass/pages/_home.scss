@@ -64,8 +64,14 @@ body {
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
-        width: 15rem;
-        height: 19.5%;
+        width: 20rem;
+        height: 15.5%;
+        @include respond(tab-port) {
+            height: 13%;
+        }
+        @include respond(small-phone) {
+            height: 15.5%;
+        }
         user-select: none;
     }
 

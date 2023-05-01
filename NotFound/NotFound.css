@@ -91,12 +91,13 @@ body {
 }
 
 .logo {
-    width: 15rem;
+    width: 25rem;
     height: 15rem;
     user-select: none;
-    background-image: url(../images/logo.png);
+    background-image: url(/images/logocopy.ico);
     background-size: 100% 100%;
     background-position: center;
+    margin-bottom: 3rem;
     z-index: 2;
 }
 

@@ -93,9 +93,19 @@ body {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 15rem;
-  height: 19.5%;
+  width: 20rem;
+  height: 15.5%;
   user-select: none;
+}
+@media only screen and (max-width: 48em) {
+  .header-section__logo {
+    height: 13%;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .header-section__logo {
+    height: 15.5%;
+  }
 }
 .header-section__img {
   position: absolute;

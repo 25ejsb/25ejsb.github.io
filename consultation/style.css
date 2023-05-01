@@ -71,10 +71,12 @@ body {
     background-color: #fafafa;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
+    transition: 0.5s;
 }
 
 .input-box:focus {
     outline: none;
+    transform: translate(0, -5%);
 }
 
 .dates {
@@ -87,10 +89,12 @@ body {
     font-size: 2rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 2rem;
+    transition: 0.5s;
 }
 
 .dates:focus {
     outline: none;
+    transform: translate(0, -5%);
 }
 
 .extra {
