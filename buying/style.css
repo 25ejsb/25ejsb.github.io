@@ -46,7 +46,7 @@ body {
 }
 
 .header-logo {
-    background-image: url(/images/logocopy.png);
+    background-image: url(/images/logocopy.ico);
     background-size: 100% 100%;
     background-position: center;
     width: 15rem;
