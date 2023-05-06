@@ -1216,7 +1216,7 @@ body {
 .about-section__aboutme--row1 {
   width: 100%;
   height: 50%;
-  margin-bottom: 5rem;
+  margin-bottom: 7.5rem;
 }
 .about-section__aboutme--row2 {
   width: 100%;
@@ -1233,13 +1233,12 @@ body {
 }
 .about-section__profile {
   background-image: url(images/adam.webp);
-  background-size: 100% 95%;
+  background-size: 100% 100%;
   background-position: center;
-  clip-path: circle(40%);
-  shape-outside: circle(55%);
+  border-radius: 50%;
   width: 30rem;
   height: 30rem;
-  margin: 0 auto;
+  margin: 3% auto;
 }
 .about-section__header {
   font-size: 6rem;
