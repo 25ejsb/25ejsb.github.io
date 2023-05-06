@@ -24,6 +24,9 @@
     .transition-image--3 {
         background-size: 180% 100%;
     }
+    .socials-title {
+        font-size: 4.5rem;
+    }
 }
 
 @media only screen and (max-width:48em) {
@@ -45,6 +48,9 @@
     .header h1 {
         font-size: 2.5rem;
         width: 75%;
+    }
+    .socials-title {
+        font-size: 4rem;
     }
 }
 
@@ -79,6 +85,9 @@
         left: 0%;
         top: 35%;
         background-size: 100% 100%;
+    }
+    .socials-title {
+        font-size: 3.5rem;
     }
 }
 

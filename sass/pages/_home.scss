@@ -192,15 +192,15 @@ body {
         top: 80%;
         transform: translate(-50%, -50%);
         text-align: center;
-        width: 50%;
+        width: 60%;
         @include respond(tab-land) {
-            width: 60%;
-        }
-        @include respond(tab-port) {
             width: 70%;
         }
+        @include respond(tab-port) {
+            width: 80%;
+        }
         @include respond(phone) {
-            width: 85%;
+            width: 95%;
         }
         @include respond(small-phone) {
             width: 100%;

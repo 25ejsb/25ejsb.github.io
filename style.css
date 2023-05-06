@@ -242,21 +242,21 @@ body {
   top: 80%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 50%;
+  width: 60%;
 }
 @media only screen and (max-width: 61.9em) {
-  .header-section__buttons {
-    width: 60%;
-  }
-}
-@media only screen and (max-width: 48em) {
   .header-section__buttons {
     width: 70%;
   }
 }
+@media only screen and (max-width: 48em) {
+  .header-section__buttons {
+    width: 80%;
+  }
+}
 @media only screen and (max-width: 36em) {
   .header-section__buttons {
-    width: 85%;
+    width: 95%;
   }
 }
 @media only screen and (max-width: 30em) {
