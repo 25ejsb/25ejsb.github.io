@@ -24,6 +24,7 @@ body {
     background-position: center;
     color: white;
     padding: 5% 0;
+    overflow: hidden;
 }
 .header h1 {
     font-size: 3.25rem;
