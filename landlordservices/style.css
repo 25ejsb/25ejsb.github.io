@@ -6,10 +6,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 62.5%;
-    scroll-behavior: smooth;
 }
 
 .header {
@@ -26,6 +29,25 @@ body {
     padding: 5% 0;
     overflow: hidden;
 }
+
+.header-forward {
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
+    transform: rotate(90deg);
+    padding: 0.4rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 5.5rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 80%;
+    top: 80%;
+}
+
 .header h1 {
     font-size: 3.25rem;
     letter-spacing: 2.5px;

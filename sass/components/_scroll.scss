@@ -127,14 +127,22 @@ $transition-time: .4s;
             transform: rotate(15deg);
         }
         &--3 {
+            background-image: linear-gradient(to right bottom, rgba($black, 0.7), rgba($black, 0.1)), url(images/backgroundcool.jpg);
+            transform: rotate(10deg);
+        }
+        &--4 {
+            background-image: linear-gradient(to right bottom, rgba($black, 0.7), rgba($black, 0.1)), url(/images/housessold1.jpg);
+            transform: rotate(-10deg);
+        }
+        &--5 {
             background-image: linear-gradient(to right bottom, rgba($black, 0.7), rgba($black, 0.1)), url(images/header2.jpg);
             transform: rotate(-15deg);
         }
-        &--4 {
+        &--6 {
             background-image: linear-gradient(to right bottom, rgba($black, 0.7), rgba($black, 0.1)), url(images/header3.jpg);
             transform: rotate(-25deg);
         }
-        &--label, &--testimonials {
+        &--label, &--testimonials, &--whatsnew {
             position: absolute;
             top: 10%;
             left: 50%;
@@ -143,6 +151,7 @@ $transition-time: .4s;
             color: white;
             z-index: 999;
             font-size: 0rem;
+            width: 100%;
         }
     }
     &:not(:last-child) {
@@ -624,25 +633,26 @@ $transition-time: .4s;
     .scroll-to-frame__link {
         font-size: 3rem;
         transition: all $transition-time;
-        padding: 7rem 7rem;
+        padding: 6rem 6rem;
         @include respond(phone) {
             width: 15%;
+            padding: 6rem 5rem;
         }
         @include respond(small-phone) {
-            padding: 6rem 5rem;
+            padding: 4rem 4rem;
         }
     }
     .scroll-to-frame__link--label {
         font-size: 2rem;
         @include respond(small-phone) {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
     }
-    .scroll-to-frame__link--testimonials {
+    .scroll-to-frame__link--testimonials, .scroll-to-frame__link--whatsnew {
         font-size: 1.5rem;
-        // @include respond(phone-advanced) {
-        //     font-size: 3rem;
-        // }
+        @include respond(small-phone) {
+            font-size: 1.1rem;
+        }
     }
     .scroll-to-frame__social {
         width: 5rem;

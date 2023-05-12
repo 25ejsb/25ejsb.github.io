@@ -77,6 +77,8 @@ document.addEventListener("keydown", (event) => {
 
 var homeBtn = document.getElementById("homebtn");
 var aboutBtn = document.getElementById("aboutbtn");
+var whatsnewbtn = document.getElementById("whatsnewbtn");
+var recentlySoldBtn = document.getElementById("recentlysoldbtn");
 var testimonialsBtn = document.getElementById("testimonialsbtn");
 var contactBtn = document.getElementById("contactbtn");
 
@@ -86,22 +88,34 @@ homeBtn.addEventListener("click", () => {
     scrollBtn.innerHTML = "&#8801"
 });
 
+whatsnewbtn.addEventListener("click", () => {
+    scrollToFrame.classList.remove("opened");
+    scrollToFrame.classList.add("scroll-to-frame");
+    scrollBtn.innerHTML = "&#8801";
+});
+
 aboutBtn.addEventListener("click", () => {
     scrollToFrame.classList.remove("opened");
     scrollToFrame.classList.add("scroll-to-frame");
-    scrollBtn.innerHTML = "&#8801"
+    scrollBtn.innerHTML = "&#8801";
+});
+
+recentlySoldBtn.addEventListener("click", () => {
+    scrollToFrame.classList.remove("opened");
+    scrollToFrame.classList.add("scroll-to-frame");
+    scrollBtn.innerHTML = "&#8801";
 });
 
 testimonialsBtn.addEventListener("click", () => {
     scrollToFrame.classList.remove("opened");
     scrollToFrame.classList.add("scroll-to-frame");
-    scrollBtn.innerHTML = "&#8801"
+    scrollBtn.innerHTML = "&#8801";
 });
 
 contactBtn.addEventListener("click", () => {
     scrollToFrame.classList.remove("opened");
     scrollToFrame.classList.add("scroll-to-frame");
-    scrollBtn.innerHTML = "&#8801"
+    scrollBtn.innerHTML = "&#8801";
 });
 
 scrollBtn.addEventListener("click", () => {

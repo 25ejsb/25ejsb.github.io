@@ -564,14 +564,22 @@ body {
   transform: rotate(15deg);
 }
 .scroll-to-frame__link--3 {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(images/backgroundcool.jpg);
+  transform: rotate(10deg);
+}
+.scroll-to-frame__link--4 {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(/images/housessold1.jpg);
+  transform: rotate(-10deg);
+}
+.scroll-to-frame__link--5 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(images/header2.jpg);
   transform: rotate(-15deg);
 }
-.scroll-to-frame__link--4 {
+.scroll-to-frame__link--6 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(images/header3.jpg);
   transform: rotate(-25deg);
 }
-.scroll-to-frame__link--label, .scroll-to-frame__link--testimonials {
+.scroll-to-frame__link--label, .scroll-to-frame__link--testimonials, .scroll-to-frame__link--whatsnew {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -580,6 +588,7 @@ body {
   color: white;
   z-index: 999;
   font-size: 0rem;
+  width: 100%;
 }
 .scroll-to-frame:not(:last-child) {
   margin-right: 5rem;
@@ -1138,16 +1147,17 @@ body {
 .opened .scroll-to-frame__link {
   font-size: 3rem;
   transition: all 0.4s;
-  padding: 7rem 7rem;
+  padding: 6rem 6rem;
 }
 @media only screen and (max-width: 36em) {
   .opened .scroll-to-frame__link {
     width: 15%;
+    padding: 6rem 5rem;
   }
 }
 @media only screen and (max-width: 30em) {
   .opened .scroll-to-frame__link {
-    padding: 6rem 5rem;
+    padding: 4rem 4rem;
   }
 }
 .opened .scroll-to-frame__link--label {
@@ -1155,11 +1165,16 @@ body {
 }
 @media only screen and (max-width: 30em) {
   .opened .scroll-to-frame__link--label {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
-.opened .scroll-to-frame__link--testimonials {
+.opened .scroll-to-frame__link--testimonials, .opened .scroll-to-frame__link--whatsnew {
   font-size: 1.5rem;
+}
+@media only screen and (max-width: 30em) {
+  .opened .scroll-to-frame__link--testimonials, .opened .scroll-to-frame__link--whatsnew {
+    font-size: 1.1rem;
+  }
 }
 .opened .scroll-to-frame__social {
   width: 5rem;
@@ -1183,16 +1198,16 @@ body {
   background-color: black;
   z-index: 2;
   overflow: hidden;
-  height: 200rem;
+  height: 190rem;
 }
 @media only screen and (max-width: 1080px) {
   .about-section {
-    height: 240rem;
+    height: 230rem;
   }
 }
 @media only screen and (max-width: 576px) {
   .about-section {
-    height: 290rem;
+    height: 280rem;
   }
 }
 .about-section__background {
@@ -2605,6 +2620,113 @@ body {
 }
 .properties-sold-section__house--open {
   transform: translate(0%);
+}
+
+.whats-new-section {
+  overflow: hidden;
+  padding: 5% 15% 1.5%;
+  z-index: 2;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(/images/img3.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+@media only screen and (max-width: 48em) {
+  .whats-new-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(/images/header5.jpg);
+  }
+}
+.whats-new-section__header {
+  font-size: 6rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right top, #f5ad14, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  width: 70%;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid white;
+}
+@media only screen and (max-width: 36em) {
+  .whats-new-section__header {
+    font-size: 4rem;
+  }
+}
+.whats-new-section__video {
+  height: 70rem;
+  width: 39rem;
+}
+.whats-new-section__news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.whats-new-section__news--title {
+  text-align: center;
+  font-size: 5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(to right, #fff, rgb(170, 170, 170));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@media only screen and (max-width: 36em) {
+  .whats-new-section__news--title {
+    font-size: 4rem;
+  }
+}
+.whats-new-section__video video {
+  height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 2rem 0 2rem 0;
+}
+.whats-new-section__socials {
+  width: 200%;
+  height: 15rem;
+  margin-top: 3rem;
+  border-top: 2px solid white;
+}
+@media only screen and (max-width: 36em) {
+  .whats-new-section__socials {
+    height: 17rem;
+  }
+}
+.whats-new-section__socials--title {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whats-new-section__socials--sociallink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+.whats-new-section__socials--facebook, .whats-new-section__socials--instagram, .whats-new-section__socials--tiktok {
+  fill: white;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
