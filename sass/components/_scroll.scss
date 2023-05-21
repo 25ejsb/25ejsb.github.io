@@ -93,6 +93,9 @@ $transition-time: .4s;
         text-align: center;
         z-index: 999;
         width: 100%;
+        @include respond(small-phone) {
+            width: 120%;
+        }
         height: 10%;
     }
     &__link {
