@@ -289,7 +289,7 @@ body {
     height: 100%;
 }
 
-.news-row__info {
+.news-row__info, .news-row__info--2 {
     position: absolute;
     height: 30%;
     width: 100%;
@@ -312,5 +312,15 @@ body {
 
 .news-row__info p {
     font-size: 1.25rem;
+    text-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.9);
+}
+
+.news-row__info--2 h2 {
+    font-size: 1.3rem;
+    text-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.9);
+}
+
+.news-row__info--2 p {
+    font-size: 0.75rem;
     text-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.9);
 }
