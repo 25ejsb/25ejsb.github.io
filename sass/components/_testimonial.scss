@@ -1,8 +1,8 @@
 .testimonials-section {
     position: relative;
-    height: 715rem;
+    height: 800rem;
     @include respond(small-phone) {
-        height: 640rem;
+        height: 680rem;
     }
     overflow: hidden;
     background-color: white;

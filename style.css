@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
 @media only screen and (max-height: 61.9em) {
   .testimonials-section__testimonial--para {
     font-size: 1.15rem;
@@ -812,23 +813,23 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 4.75rem;
+  font-size: 4.25rem;
   transform: translate(-50%, -50%);
   transition: all 0.5s;
 }
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__facebook-section--title {
-    font-size: 4.25rem;
+    font-size: 3.75rem;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__facebook-section--title {
-    font-size: 3.75rem;
+    font-size: 3.15rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__facebook-section--title {
-    font-size: 3rem;
+    font-size: 2.9rem;
   }
 }
 .scroll-to-frame__facebook-section--link {
@@ -840,7 +841,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   transform: translate(-50%, -100%);
   opacity: 0;
   transition: all 0.5s;
@@ -852,17 +853,17 @@ body {
 }
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__facebook-section--link {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__facebook-section--link {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__facebook-section--link {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 .scroll-to-frame__facebook-section:hover .scroll-to-frame__facebook-section--bg {
@@ -928,21 +929,21 @@ body {
   font-size: 6rem;
   transform: translate(-50%, -50%);
   transition: all 0.5s;
-  font-size: 4.75rem;
+  font-size: 4.25rem;
 }
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__instagram-section--title {
-    font-size: 4.5rem;
+    font-size: 3.75rem;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__instagram-section--title {
-    font-size: 3.25rem;
+    font-size: 3.15rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__instagram-section--title {
-    font-size: 3rem;
+    font-size: 2.9rem;
   }
 }
 .scroll-to-frame__instagram-section--link {
@@ -954,7 +955,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   transform: translate(-50%, -100%);
   opacity: 0;
   transition: all 0.5s;
@@ -966,17 +967,17 @@ body {
 }
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__instagram-section--link {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__instagram-section--link {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__instagram-section--link {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 .scroll-to-frame__instagram-section:hover .scroll-to-frame__instagram-section--bg {
@@ -1043,21 +1044,21 @@ body {
   font-size: 6rem;
   transform: translate(-50%, -50%);
   transition: all 0.5s;
-  font-size: 4.5rem;
+  font-size: 4.25rem;
 }
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__tiktok-section--title {
-    font-size: 4.25rem;
+    font-size: 3.75rem;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__tiktok-section--title {
-    font-size: 5rem;
+    font-size: 3.15rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__tiktok-section--title {
-    font-size: 4rem;
+    font-size: 2.9rem;
   }
 }
 .scroll-to-frame__tiktok-section--link {
@@ -1069,7 +1070,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   transform: translate(-50%, -100%);
   opacity: 0;
   transition: all 0.5s;
@@ -1081,17 +1082,17 @@ body {
 }
 @media only screen and (max-width: 61.9em) {
   .scroll-to-frame__tiktok-section--link {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 48em) {
   .scroll-to-frame__tiktok-section--link {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
 @media only screen and (max-width: 36em) {
   .scroll-to-frame__tiktok-section--link {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 .scroll-to-frame__tiktok-section:hover .scroll-to-frame__tiktok-section--bg {
@@ -1384,6 +1385,22 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.about-section__accomplishments--row {
+  width: 35rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-section__accomplishments--row h2 {
+  text-transform: uppercase;
+  background-image: linear-gradient(to right top, #f5ad14, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
 .about-section__image {
   width: 35rem;
   height: 100%;
@@ -1399,7 +1416,7 @@ body {
   background-position: center;
 }
 .about-section__image--2 {
-  background-image: url(/images/ranking2.jpeg);
+  background-image: url(/images/2022award.jpg);
   background-size: 100% 100%;
   background-position: center;
 }
@@ -1415,7 +1432,7 @@ body {
 
 .testimonials-section {
   position: relative;
-  height: 715rem;
+  height: 800rem;
   overflow: hidden;
   background-color: white;
   z-index: 1;
@@ -1425,7 +1442,7 @@ body {
 }
 @media only screen and (max-width: 30em) {
   .testimonials-section {
-    height: 640rem;
+    height: 680rem;
   }
 }
 .testimonials-section__mobile-bg {
@@ -1741,693 +1758,207 @@ body {
 }
 
 .contact-section {
-  height: 80rem;
+  height: 90rem;
   position: relative;
   z-index: 2;
   background-color: rgb(30, 30, 30);
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(images/housessold2.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 3% 8%;
 }
-.contact-section__background {
-  position: absolute;
-  top: 0;
-  left: 2.5%;
+.contact-section__header {
+  background-image: linear-gradient(to right, #e35260, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 5.5rem;
+  text-align: center;
   width: 100%;
-  height: 100%;
-  z-index: -1;
-  filter: blur(0.01rem);
-}
-.contact-section__background--1 {
-  border-radius: 0.4rem;
-  height: 90%;
-  width: 29%;
-  margin-top: 5rem;
-  margin-left: 3rem;
-  display: inline-block;
-  background-size: 100% 100%;
-  background-position: center;
-  user-select: none;
-  background-image: url(images/header2.jpg);
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--1 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--1 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--1 {
-    width: 27%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--1 {
-    width: 40%;
-    height: 42.5%;
-  }
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--1 {
-    background-size: 100% 100%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--1 {
-    background-size: 115% 115%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--1 {
-    background-size: 130% 130%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--1 {
-    background-size: 145% 145%;
-  }
-}
-.contact-section__background--2 {
-  border-radius: 0.4rem;
-  height: 90%;
-  width: 29%;
-  margin-top: 5rem;
-  margin-left: 3rem;
-  display: inline-block;
-  background-size: 100% 100%;
-  background-position: center;
-  user-select: none;
-  background-image: url(images/tookanimage.webp);
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--2 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--2 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--2 {
-    width: 27%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--2 {
-    width: 40%;
-    height: 42.5%;
-  }
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--2 {
-    background-size: 100% 100%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--2 {
-    background-size: 115% 115%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--2 {
-    background-size: 130% 130%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--2 {
-    background-size: 145% 145%;
-  }
-}
-.contact-section__background--3 {
-  border-radius: 0.4rem;
-  height: 90%;
-  width: 29%;
-  margin-top: 5rem;
-  margin-left: 3rem;
-  display: inline-block;
-  background-size: 100% 100%;
-  background-position: center;
-  user-select: none;
-  background-image: url(images/header8.jpg);
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--3 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--3 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--3 {
-    width: 27%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--3 {
-    width: 40%;
-    height: 42.5%;
-  }
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--3 {
-    background-size: 100% 100%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--3 {
-    background-size: 115% 115%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--3 {
-    background-size: 130% 130%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--3 {
-    background-size: 145% 145%;
-  }
-}
-.contact-section__background--4 {
-  border-radius: 0.4rem;
-  height: 90%;
-  width: 29%;
-  margin-top: 5rem;
-  margin-left: 3rem;
-  display: inline-block;
-  background-size: 100% 100%;
-  background-position: center;
-  user-select: none;
-  background-image: url(images/picture3.jpg);
-  opacity: 0;
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--4 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--4 {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--4 {
-    width: 27%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--4 {
-    width: 40%;
-    height: 42.5%;
-  }
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__background--4 {
-    background-size: 100% 100%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__background--4 {
-    background-size: 115% 115%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__background--4 {
-    background-size: 130% 130%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--4 {
-    background-size: 145% 145%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__background--4 {
-    opacity: 1;
-  }
+  margin-bottom: 3rem;
 }
 .contact-section__main {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 0.7rem;
-  position: absolute;
-  top: 20%;
-  left: 25%;
-  text-align: center;
-  width: 50%;
-  height: 70%;
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main {
-    left: 15%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main {
-    width: 70%;
-  }
-}
-.contact-section__main--name {
   width: 80%;
-  height: 10%;
-  margin-top: 5rem;
-  margin-bottom: 3.5rem;
-  border: none;
-  border-bottom: 3px solid rgb(200, 200, 200);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  font-family: inherit;
-  font-size: 2rem;
-  color: black;
-}
-.contact-section__main--name:focus {
-  outline: none;
-}
-.contact-section__main--email {
-  width: 80%;
-  height: 10%;
-  border: none;
-  border-bottom: 3px solid rgb(200, 200, 200);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  font-family: inherit;
-  font-size: 2rem;
-  margin-bottom: 4rem;
-  color: black;
-}
-.contact-section__main--email:focus {
-  outline: none;
-}
-.contact-section__main--message {
-  width: 80%;
-  height: 23%;
-  border: none;
-  border-bottom: 3px solid rgb(200, 200, 200);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  font-family: inherit;
-  font-size: 2rem;
-  color: black;
-  resize: vertical;
-}
-.contact-section__main--message:focus {
-  outline: none;
+  height: 80%;
+  background-color: #fafafa;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 3% 6%;
+  flex-direction: column;
 }
 .contact-section__main--send {
-  position: absolute;
-  left: 10%;
-  top: 85%;
-  width: 20%;
-  overflow: hidden;
-  height: 9%;
-  background-image: linear-gradient(to right bottom, #e35260, red);
-  text-decoration: none;
-  color: white;
-  padding: 1.25rem;
-  font-size: 2.5rem;
-  border-radius: 0.6rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__main--send {
-    width: 20%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--send {
-    width: 22.5%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__main--send {
-    width: 25%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--send {
-    width: 30%;
-  }
-}
-.contact-section__main--meet {
-  background-color: green;
-  width: 30%;
-  height: 9%;
-  position: absolute;
-  left: 77.5%;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 89.5%;
-  text-transform: uppercase;
-  border-radius: 0.4rem;
-  color: white;
-  overflow: hidden;
-  transform: translate(-50%, -50%);
-  background-image: linear-gradient(to right, #f5ad14, #cc9114);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  transition: background-color 0.4s;
-  background-size: 250%;
-  transition: all 0.5s;
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__main--meet {
-    font-size: 1.75rem;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--meet {
-    left: 50%;
-    top: 77.5%;
-  }
-}
-.contact-section__main--meet:hover {
-  background-position: -100%;
-}
-.contact-section__main--whatsapp {
-  background-color: green;
-  width: 20%;
-  height: 9%;
-  position: absolute;
-  left: 37.5%;
-  top: 85%;
-  border-radius: 0.4rem;
-  color: white;
-  overflow: hidden;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  transition: background-color 0.4s;
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__main--whatsapp {
-    width: 18%;
-  }
-}
-@media only screen and (max-width: 66em) {
-  .contact-section__main--whatsapp {
-    width: 24%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--whatsapp {
-    width: 29%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__main--whatsapp {
-    width: 36%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--whatsapp {
-    width: 42%;
-  }
-}
-@media only screen and (max-width: 66em) {
-  .contact-section__main--whatsapp {
-    left: 35%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--whatsapp {
-    left: 37.5%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--whatsapp {
-    left: 45%;
-  }
-}
-.contact-section__main__whatsapptext {
-  text-align: center;
-  width: 65%;
-  height: 20%;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  position: absolute;
-  left: 30%;
-  top: 37.5%;
-  transition: color 0.4s;
-}
-.contact-section__main__whatsappicon {
-  position: absolute;
-  background-image: url(images/whatsapp.png);
-  background-size: 100% 100%;
-  background-position: center;
-  width: 35%;
+  position: relative;
+  width: 15rem;
   height: 100%;
-  top: -3%;
-  left: 0%;
+  border-radius: 3rem;
+  display: flex;
+  overflow: hidden;
+  text-decoration: none;
+  transition: all 0.5s;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
-.contact-section__main--whatsapp:hover .contact-section__main__whatsapptext {
-  color: green;
-}
-.contact-section__main--whatsapp:hover {
-  background-color: white;
+.contact-section__main--send:active {
+  transform: translate(0, 4%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 .contact-section__main--sendtext {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  z-index: 3;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
-  z-index: 2;
-  position: relative;
 }
 .contact-section__main--sendbg {
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #34eb37, #2f9431);
+  background-image: linear-gradient(to right, #e35260, red);
+}
+.contact-section__main--whatsapp {
+  width: 14rem;
+  height: 100%;
+  background-color: #25D366;
+  border-radius: 3rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   transition: all 0.5s;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
-.contact-section__main--send:hover .contact-section__main--sendbg {
-  opacity: 1;
+.contact-section__main--whatsapp:active {
+  transform: translate(0, 4%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
-.contact-section__main--field {
-  background-image: linear-gradient(#e35260, red);
-  -webkit-background-clip: text;
-  color: transparent;
-  position: absolute;
+.contact-section__main--meet {
+  background-image: linear-gradient(to right, #f5ad14, #cc9114);
+  width: 15rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 2rem;
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__main--field {
-    font-size: 2rem;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--field {
-    font-size: 1.75rem;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__main--field {
-    font-size: 1.5rem;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--field {
-    font-size: 1.25rem;
-  }
-}
-.contact-section__main--field--1 {
-  display: none;
-  left: 25%;
-  top: 22.5%;
-  transform: translate(-50%, -200%);
-  transition: all 0.5s;
-  opacity: 0;
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__main--field--1 {
-    left: 25%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--field--1 {
-    left: 27.5%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__main--field--1 {
-    left: 29.5%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--field--1 {
-    left: 30%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--field--1 {
-    top: 22%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--field--1 {
-    top: 22%;
-  }
-}
-.contact-section__main--field--1--open {
-  transform: translate(-50%, -50%);
-  opacity: 1;
-  display: block;
-}
-.contact-section__main--field--2 {
-  display: none;
-  left: 25%;
-  top: 40%;
-  transform: translate(-50%, -200%);
-  transition: all 0.5s;
-  opacity: 0;
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__main--field--2 {
-    left: 25%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--field--2 {
-    left: 27.5%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__main--field--2 {
-    left: 29.5%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--field--2 {
-    left: 30%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--field--2 {
-    top: 39%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--field--2 {
-    top: 39%;
-  }
-}
-.contact-section__main--field--2--open {
-  transform: translate(-50%, -50%);
-  opacity: 1;
-  display: block;
-}
-.contact-section__main--field--3 {
-  left: 25%;
-  display: none;
-  top: 71%;
-  transform: translate(-50%, -200%);
-  transition: all 0.5s;
-  opacity: 0;
-}
-@media only screen and (min-width: 75em) {
-  .contact-section__main--field--3 {
-    left: 25%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--field--3 {
-    left: 27.5%;
-  }
-}
-@media only screen and (max-width: 48em) {
-  .contact-section__main--field--3 {
-    left: 29.5%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--field--3 {
-    left: 30%;
-  }
-}
-@media only screen and (max-width: 61.9em) {
-  .contact-section__main--field--3 {
-    top: 69.5%;
-  }
-}
-@media only screen and (max-width: 36em) {
-  .contact-section__main--field--3 {
-    top: 69.5%;
-  }
-}
-.contact-section__main--field--3--open {
-  transform: translate(-50%, -50%);
-  opacity: 1;
-  display: block;
-}
-.contact-section__header {
-  font-size: 7rem;
-  text-align: center;
-  margin-top: 3rem;
-  background-image: linear-gradient(to right bottom, #e35260, red);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: white;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
 }
-@media only screen and (min-width: 75em) {
-  .contact-section__header {
-    font-size: 7rem;
+@media only screen and (max-width: 30em) {
+  .contact-section__main--meet {
+    width: 9rem;
+    font-size: 1.25rem;
+    border-radius: 2.75rem;
   }
 }
-@media only screen and (max-width: 61.9em) {
-  .contact-section__header {
-    font-size: 6rem;
-  }
+.contact-section__main--meet:active {
+  transform: translate(0, 4%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
-@media only screen and (max-width: 48em) {
-  .contact-section__header {
-    font-size: 5.5rem;
-  }
+.contact-section__main__whatsappicon {
+  width: 40%;
+  height: 100%;
+  background-image: url(images/whatsapp.png);
+  background-size: 100% 100%;
+  background-position: center;
 }
-@media only screen and (max-width: 36em) {
-  .contact-section__header {
-    font-size: 4rem;
-  }
+.contact-section__main__whatsapptext {
+  font-size: 1.2rem;
+  color: white;
 }
 .contact-section__thanks {
-  background-image: linear-gradient(to right bottom, #34eb37, #2f9431);
-  -webkit-background-clip: text;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, #34eb37, #2f9431);
   color: transparent;
-  margin-top: 3rem;
-  font-size: 1.75rem;
+  -webkit-background-clip: text;
   opacity: 0;
-  transform: translate(0, -70%);
   transition: all 0.5s;
 }
-@media only screen and (max-width: 61.9em) {
-  .contact-section__thanks {
-    font-size: 1.75rem;
-  }
+.contact-section__row {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-@media only screen and (max-width: 48em) {
-  .contact-section__thanks {
-    font-size: 1.5rem;
-  }
+
+.input-box {
+  width: 100%;
+  height: 7rem;
+  border: none;
+  font-size: 2.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
 }
-@media only screen and (max-width: 36em) {
-  .contact-section__thanks {
-    font-size: 1.25rem;
-  }
+.input-box:focus {
+  outline: none;
 }
+.input-box::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.input-field {
+  background-image: linear-gradient(to right, #e35260, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.input-message {
+  width: 100%;
+  resize: none;
+  height: 15rem;
+  font-size: 2rem;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+.input-message:focus {
+  outline: none;
+}
+.input-message::placeholder {
+  color: black;
+  font-size: 2rem;
+}
+
 .contact-section__thanks--active {
   opacity: 1;
-  transform: translate(0%, 0%);
+}
+
+.contact-section__main--field--1--open, .contact-section__main--field--2--open, .contact-section__main--field--3--open {
+  opacity: 1;
 }
 
 /* width */
@@ -2471,7 +2002,7 @@ body {
 }
 .properties-sold-section__title {
   text-align: center;
-  font-size: 6rem;
+  font-size: 5.5rem;
   z-index: 3;
   text-transform: uppercase;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(200, 200, 200));
@@ -2479,13 +2010,13 @@ body {
   background-position: center;
   -webkit-background-clip: text;
   color: transparent;
-  padding-top: 5rem;
+  padding-top: 3rem;
   width: 100%;
   height: 20%;
 }
 @media only screen and (max-width: 36em) {
   .properties-sold-section__title {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 .properties-sold-section__houses {
@@ -2504,11 +2035,11 @@ body {
   }
 }
 .properties-sold-section__houses--title {
-  font-size: 2.5rem;
+  font-size: 2.15rem;
   width: 50%;
   height: 80%;
   text-align: left;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-left: 1rem;
   color: rgb(50, 50, 50);
 }

@@ -349,15 +349,15 @@ $transition-time: .4s;
             position: absolute;
             top: 50%;
             left: 50%;
-            font-size: 4.75rem;
+            font-size: 4.25rem;
             @include respond(tab-land) {
-                font-size: 4.25rem;
-            }
-            @include respond(tab-port) {
                 font-size: 3.75rem;
             }
+            @include respond(tab-port) {
+                font-size: 3.15rem;
+            }
             @include respond(phone) {
-                font-size: 3rem;
+                font-size: 2.9rem;
             }
             transform: translate(-50%, -50%);
             transition: all .5s;
@@ -371,18 +371,18 @@ $transition-time: .4s;
             position: absolute;
             top: 50%;
             left: 50%;
-            font-size: 1.75rem;
+            font-size: 1.4rem;
             @include respond(big-monitor) {
                 font-size: 1.1rem;
             }
             @include respond(tab-land) {
-                font-size: 1.05rem;
+                font-size: 1rem;
             }
             @include respond(tab-port) {
-                font-size: 0.95rem;
+                font-size: 0.9rem;
             }
             @include respond(phone) {
-                font-size: 2rem;
+                font-size: 1rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;
@@ -450,15 +450,15 @@ $transition-time: .4s;
             font-size: 6rem;
             transform: translate(-50%, -50%);
             transition: all .5s;
-            font-size: 4.75rem;
+            font-size: 4.25rem;
             @include respond(tab-land) {
-                font-size: 4.5rem;
+                font-size: 3.75rem;
             }
             @include respond(tab-port) {
-                font-size: 3.25rem;
+                font-size: 3.15rem;
             }
             @include respond(phone) {
-                font-size: 3rem;
+                font-size: 2.9rem;
             }
         }
         &--link {
@@ -470,18 +470,18 @@ $transition-time: .4s;
             position: absolute;
             top: 50%;
             left: 50%;
-            font-size: 1.75rem;
+            font-size: 1.4rem;
             @include respond(big-monitor) {
                 font-size: 1.1rem;
             }
             @include respond(tab-land) {
-                font-size: 1.05rem;
+                font-size: 1rem;
             }
             @include respond(tab-port) {
-                font-size: 0.95rem;
+                font-size: 0.9rem;
             }
             @include respond(phone) {
-                font-size: 2rem;
+                font-size: 1rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;
@@ -550,15 +550,15 @@ $transition-time: .4s;
             font-size: 6rem;
             transform: translate(-50%, -50%);
             transition: all .5s;
-            font-size: 4.5rem;
+            font-size: 4.25rem;
             @include respond(tab-land) {
-                font-size: 4.25rem;
+                font-size: 3.75rem;
             }
             @include respond(tab-port) {
-                font-size: 5rem;
+                font-size: 3.15rem;
             }
             @include respond(phone) {
-                font-size: 4rem;
+                font-size: 2.9rem;
             }
         }
         &--link {
@@ -570,18 +570,18 @@ $transition-time: .4s;
             position: absolute;
             top: 50%;
             left: 50%;
-            font-size: 1.75rem;
+            font-size: 1.4rem;
             @include respond(big-monitor) {
                 font-size: 1.1rem;
             }
             @include respond(tab-land) {
-                font-size: 1.05rem;
+                font-size: 1rem;
             }
             @include respond(tab-port) {
-                font-size: 0.95rem;
+                font-size: 0.9rem;
             }
             @include respond(phone) {
-                font-size: 2rem;
+                font-size: 1rem;
             }
             transform: translate(-50%, -100%);
             opacity: 0;
