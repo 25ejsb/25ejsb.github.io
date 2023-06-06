@@ -193,14 +193,22 @@
             background-position: center;
         }
         &--3 {
-            background-image: url(/images/picture2.webp);
-            background-size: 100% 100%;
-            background-position: center;
-        }
-        &--4 {
             background-image: url(/images/2022award.jpg);
             background-size: 100% 100%;
             background-position: center;
         }
+        &--4 {
+            background-image: url(/images/picture2.webp);
+            background-size: 100% 100%;
+            background-position: center;
+        }
     }
+}
+
+
+.hide-on-view {
+    @include respond(phone) {
+        display: none;
+        user-select: none;
+    } 
 }

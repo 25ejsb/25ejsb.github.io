@@ -1425,14 +1425,21 @@ body {
   background-position: center;
 }
 .about-section__image--3 {
-  background-image: url(/images/picture2.webp);
+  background-image: url(/images/2022award.jpg);
   background-size: 100% 100%;
   background-position: center;
 }
 .about-section__image--4 {
-  background-image: url(/images/2022award.jpg);
+  background-image: url(/images/picture2.webp);
   background-size: 100% 100%;
   background-position: center;
+}
+
+@media only screen and (max-width: 36em) {
+  .hide-on-view {
+    display: none;
+    user-select: none;
+  }
 }
 
 .opacity-in {
