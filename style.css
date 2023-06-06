@@ -1204,9 +1204,9 @@ body {
   background-color: black;
   z-index: 2;
   overflow: hidden;
-  height: 190rem;
+  height: 180rem;
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1300px) {
   .about-section {
     height: 230rem;
   }
@@ -1214,6 +1214,11 @@ body {
 @media only screen and (max-width: 576px) {
   .about-section {
     height: 280rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .about-section {
+    height: 310rem;
   }
 }
 .about-section__background {
@@ -1236,12 +1241,12 @@ body {
 }
 .about-section__aboutme--row1 {
   width: 100%;
-  height: 50%;
-  margin-bottom: 7.5rem;
+  height: 60%;
+  margin-bottom: 5rem;
 }
 .about-section__aboutme--row2 {
   width: 100%;
-  height: 50%;
+  height: 40%;
 }
 .about-section__main {
   position: absolute;
@@ -1266,8 +1271,7 @@ body {
   font-family: inherit;
   color: white;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
   width: 100%;
   text-transform: uppercase;
 }
@@ -1416,12 +1420,17 @@ body {
   background-position: center;
 }
 .about-section__image--2 {
-  background-image: url(/images/2022award.jpg);
+  background-image: url(/images/ranking2.jpeg);
   background-size: 100% 100%;
   background-position: center;
 }
 .about-section__image--3 {
   background-image: url(/images/picture2.webp);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.about-section__image--4 {
+  background-image: url(/images/2022award.jpg);
   background-size: 100% 100%;
   background-position: center;
 }
