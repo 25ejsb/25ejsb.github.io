@@ -1206,7 +1206,7 @@ body {
   overflow: hidden;
   height: 180rem;
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
   .about-section {
     height: 230rem;
   }
