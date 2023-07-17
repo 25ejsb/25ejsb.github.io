@@ -1204,21 +1204,21 @@ body {
   background-color: black;
   z-index: 2;
   overflow: hidden;
-  height: 180rem;
+  height: 230rem;
 }
 @media only screen and (max-width: 1400px) {
-  .about-section {
-    height: 230rem;
-  }
-}
-@media only screen and (max-width: 576px) {
   .about-section {
     height: 280rem;
   }
 }
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 576px) {
   .about-section {
-    height: 310rem;
+    height: 330rem;
+  }
+}
+@media only screen and (max-width: 555px) {
+  .about-section {
+    height: 370rem;
   }
 }
 .about-section__background {
@@ -1433,6 +1433,42 @@ body {
   background-image: url(/images/picture2.webp);
   background-size: 100% 100%;
   background-position: center;
+}
+.about-section__topagentnetwork {
+  width: 100%;
+  height: 63rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-section__topagentnetwork--1 {
+  width: 80%;
+  height: 25%;
+  background-image: url(images/topagentnetwork2.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 36em) {
+  .about-section__topagentnetwork--1 {
+    width: 90%;
+  }
+}
+.about-section__topagentnetwork--2 {
+  width: 80%;
+  height: 75%;
+  background-image: url(images/topagentnetwork1.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 2rem;
+}
+@media only screen and (max-width: 36em) {
+  .about-section__topagentnetwork--2 {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 36em) {
@@ -2094,7 +2130,7 @@ body {
   background-image: url(images/housessold1.jpg);
 }
 .properties-sold-section__houses--image__2 {
-  background-image: url(images/housessold3.jpg);
+  background-image: url(images/soldimage3.jpg);
 }
 .properties-sold-section__houses--image__3 {
   background-image: url(images/sold1.jpeg);
