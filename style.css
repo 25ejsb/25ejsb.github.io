@@ -1218,7 +1218,7 @@ body {
 }
 @media only screen and (max-width: 555px) {
   .about-section {
-    height: 370rem;
+    height: 360rem;
   }
 }
 .about-section__background {
@@ -1443,6 +1443,11 @@ body {
   align-items: center;
   flex-direction: column;
 }
+@media only screen and (max-width: 36em) {
+  .about-section__topagentnetwork {
+    height: 50rem;
+  }
+}
 .about-section__topagentnetwork--1 {
   width: 60%;
   height: 25%;
@@ -1452,14 +1457,14 @@ body {
   background-repeat: no-repeat;
   margin-bottom: 1rem;
 }
-@media only screen and (max-width: 36em) {
-  .about-section__topagentnetwork--1 {
-    width: 90%;
-  }
-}
 @media only screen and (max-width: 48em) {
   .about-section__topagentnetwork--1 {
     width: 80%;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .about-section__topagentnetwork--1 {
+    width: 90%;
   }
 }
 .about-section__topagentnetwork--2 {
