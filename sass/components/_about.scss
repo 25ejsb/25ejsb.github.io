@@ -212,9 +212,12 @@
         align-items: center;
         flex-direction: column;
         &--1 {
-            width: 80%;
+            width: 60%;
             @include respond(phone) {
                 width: 90%;
+            }
+            @include respond(tab-port) {
+                width: 80%;
             }
             height: 25%;
             background-image: url(images/topagentnetwork2.png);
@@ -224,7 +227,10 @@
             margin-bottom: 1rem;
         }
         &--2 {
-            width: 80%;
+            width: 60%;
+            @include respond(tab-port) {
+                width: 80%;
+            }
             @include respond(phone) {
                 width: 90%;
             }
