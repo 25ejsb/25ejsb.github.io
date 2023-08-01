@@ -1204,21 +1204,21 @@ body {
   background-color: black;
   z-index: 2;
   overflow: hidden;
-  height: 230rem;
+  height: 280rem;
 }
 @media only screen and (max-width: 1400px) {
   .about-section {
-    height: 280rem;
+    height: 320rem;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 858px) {
   .about-section {
-    height: 330rem;
+    height: 410rem;
   }
 }
 @media only screen and (max-width: 555px) {
   .about-section {
-    height: 360rem;
+    height: 410rem;
   }
 }
 .about-section__background {
@@ -1382,20 +1382,22 @@ body {
 }
 .about-section__accomplishments {
   width: 100%;
-  height: 40rem;
+  height: 70rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 0 7%;
 }
 .about-section__accomplishments--row {
   width: 35rem;
-  height: 100%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 3rem;
 }
 .about-section__accomplishments--row h2 {
   text-transform: uppercase;
@@ -1406,13 +1408,10 @@ body {
   margin-bottom: 1rem;
 }
 .about-section__image {
-  width: 35rem;
+  width: 40rem;
   height: 100%;
-  display: block;
   z-index: 2;
   border-radius: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 2rem;
 }
 .about-section__image--1 {
   background-image: url(/images/ranking.jpeg);
@@ -1431,6 +1430,16 @@ body {
 }
 .about-section__image--4 {
   background-image: url(/images/picture2.webp);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.about-section__image--5 {
+  background-image: url(/images/image6.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.about-section__image--6 {
+  background-image: url(/images/image6.jpg);
   background-size: 100% 100%;
   background-position: center;
 }
