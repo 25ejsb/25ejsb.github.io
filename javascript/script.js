@@ -11,7 +11,7 @@ function sendEmail() {
     var tempParams = {
       from_name: document.getElementById("email").value,
       to_name: "adam@shulmanrealtor.com",
-      message: document.getElementById("name").value + ", \n" + document.getElementById("email").value + ", \n" + document.getElementById("message").value
+      message: document.getElementById("first-name").value + " " + document.getElementById("last-name").value + ", \n" + document.getElementById("email").value + ", \n" + document.getElementById("phone").value
     };
   
     emailjs.send('service_t93tjtg', 'template_67wnjyd', tempParams, "e5QqTyM8AtPOxMClT").then(function(res){
@@ -21,12 +21,15 @@ function sendEmail() {
 };
 
 send.addEventListener("click", () => {
-    var contactname = document.getElementById("name");
+    var contactfirstname = document.getElementById("first-name");
+    var contactlastname = document.getElementById("last-name");
     var contactemail = document.getElementById("email");
-    var contactmessage = document.getElementById("message");
+    var contactphone = document.getElementById("phone");
+    var checker = document.getElementById("check");
     var field1 = document.getElementById("field-1");
     var field2 = document.getElementById("field-2");
     var field3 = document.getElementById("field-3");
+    var field4 = document.getElementById("field-4");
     if (field1.classList.contains("contact-section__main--field--1--open")) {
         field1.classList.remove("contact-section__main--field--1--open");
     }
@@ -36,20 +39,27 @@ send.addEventListener("click", () => {
     if (field3.classList.contains("contact-section__main--field--3--open")) {
         field3.classList.remove("contact-section__main--field--3--open");
     }
-    if (contactname.value == "") {
+    if (field4.classList.contains("contact-section__main--field--4--open")) {
+        field4.classList.remove("contact-section__main--field--4--open");
+    }
+    if (contactfirstname.value == "" || contactlastname.value == "") {
         field1.classList.add("contact-section__main--field--1--open");
     }
     if (contactemail.value == "") {
         field2.classList.add("contact-section__main--field--2--open");
     }
-    if (contactmessage.value == "") {
+    if (contactphone.value == "") {
         field3.classList.add("contact-section__main--field--3--open");
     }
-    if (contactname.value != "" && contactemail.value != "" && contactmessage.value != "") {
+    if (checker.checked === false) {
+        field4.classList.add("contact-section__main--field--4--open");
+    }
+    if (contactfirstname.value != "" && contactlastname != "" && contactemail.value != "" && contactphone.value != "" && checker.checked === true) {
         sendEmail();
-        contactname.value = "";
+        contactfirstname.value = "";
+        contactlastname.value = "";
         contactemail.value = "";
-        contactmessage.value = "";
+        contactphone.value = "";
     }
 });
 
