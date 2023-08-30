@@ -29,9 +29,16 @@
             font-size: 4rem;
         }
     }
-    &__video {
+    &__video, &__img {
         height: 70rem;
         width: 39rem;
+    }
+    &__img img {
+        height: 95%;
+        min-width: 95%;
+        max-width: 95%;
+        width: 95%;
+        border-radius: 2.5rem 0 2.5rem 0;
     }
     &__news {
         display: flex;

@@ -2403,9 +2403,16 @@ body {
     font-size: 4rem;
   }
 }
-.whats-new-section__video {
+.whats-new-section__video, .whats-new-section__img {
   height: 70rem;
   width: 39rem;
+}
+.whats-new-section__img img {
+  height: 95%;
+  min-width: 95%;
+  max-width: 95%;
+  width: 95%;
+  border-radius: 2.5rem 0 2.5rem 0;
 }
 .whats-new-section__news {
   display: flex;
