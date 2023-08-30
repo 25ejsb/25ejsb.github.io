@@ -326,3 +326,11 @@ body {
     font-size: 0.75rem;
     text-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.9);
 }
+
+.houses h1 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
