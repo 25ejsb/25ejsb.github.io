@@ -1206,25 +1206,28 @@ body {
 }
 
 .about-section {
-  position: relative;
   background-color: black;
-  z-index: 2;
+  z-index: 3;
   overflow: hidden;
+  position: relative;
   height: 280rem;
 }
-@media only screen and (max-width: 1400px) {
+.about-section__page {
+  height: 100%;
+}
+@media only screen and (max-width: 1130px) {
+  .about-section {
+    height: 310rem;
+  }
+}
+@media only screen and (max-width: 700px) {
   .about-section {
     height: 320rem;
   }
 }
-@media only screen and (max-width: 858px) {
+@media only screen and (max-width: 614px) {
   .about-section {
-    height: 410rem;
-  }
-}
-@media only screen and (max-width: 555px) {
-  .about-section {
-    height: 410rem;
+    height: 400rem;
   }
 }
 .about-section__background {
@@ -1233,6 +1236,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100%;
+  overflow: hidden;
 }
 .about-section__aboutme {
   width: 60%;
@@ -1259,9 +1263,11 @@ body {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
+  height: 100%;
+  margin-top: 3rem;
 }
 .about-section__profile {
   background-image: url(images/adam.webp);
@@ -1397,13 +1403,13 @@ body {
   padding: 0 7%;
 }
 .about-section__accomplishments--row {
-  width: 40rem;
+  width: 30rem;
+  margin: 0 1rem;
   height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0 3rem;
 }
 .about-section__accomplishments--row h2 {
   text-transform: uppercase;
@@ -1458,7 +1464,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-@media only screen and (max-width: 36em) {
+@media only screen and (max-width: 614px) {
   .about-section__topagentnetwork {
     height: 50rem;
   }
