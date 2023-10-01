@@ -59,7 +59,7 @@ body {
 
 .label {
     font-size: 1.3rem;
-    margin-bottom: 1rem;
+    border-bottom: 2rem solid transparent;
     color: rgb(40, 40, 40);
 }
 
@@ -72,6 +72,7 @@ body {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
     transition: 0.5s;
+    font-family: inherit;
 }
 
 .input-box:focus {
@@ -83,7 +84,7 @@ body {
     font-family: "Montserrat", sans-serif;
     resize: none;
     width: 80%;
-    height: 20%;
+    height: 10%;
     border: none;
     background-color: #fafafa;
     font-size: 2rem;
@@ -118,7 +119,7 @@ body {
     text-transform: uppercase;
     font-size: 1.5rem;
     overflow: hidden;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     background-size: 250%;
     background-image: linear-gradient(to right, #f5ad14, #cc9114);
     transition: all .5s;
@@ -126,11 +127,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    padding: 0.5rem;
 }
 
 .website:link, .website:visited {
     width: 45%;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     height: 100%;
     text-decoration: none;
     font-size: 1.5rem;
@@ -143,6 +145,7 @@ body {
     align-items: center;
     text-align: center;
     transition: all .5s;
+    padding: 0.5rem;
 }
 
 .website:hover, .website:active {
@@ -167,6 +170,7 @@ body {
     width: 80%;
     height: 10%;
     display: flex;
+    margin-bottom: 1rem;
 }
 
 .contact-part i {
@@ -183,4 +187,19 @@ body {
 
 .info  {
     font-size: 1.2rem;
+}
+
+.msg {
+    width: 80%;
+    resize: none;
+    height: 8rem;
+    margin-bottom: 1rem;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    font-family: inherit;
+    font-size: 1.5rem;
+}
+
+.msg:focus {
+    outline: none;
 }

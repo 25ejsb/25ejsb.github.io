@@ -90,7 +90,7 @@
         position: unset;
     }
     .transition {
-        height: 175rem;
+        display: none;
     }
     .transition-row {
         width: 100%;
@@ -129,5 +129,11 @@
     .header-forward {
         top: 85%;
         left: 70%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 400px;
     }
 }

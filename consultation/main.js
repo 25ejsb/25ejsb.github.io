@@ -1,14 +1,14 @@
 var newname = document.getElementById("name");
 var newemail = document.getElementById("email");
-var newphone = document.getElementById("phone");
 var newdates = document.getElementById("dates");
+var newmessage = document.getElementById("message");
 var newsend = document.querySelector(".send");
 
 function sendEmail() {
     var tempParams = {
       from_name: document.getElementById("email").value,
       to_name: "adam@shulmanrealtor.com",
-      message: "This is consultation data: \n" + newname.value + "\n" + newemail.value + "\n" + newphone.value + "\n Dates:\n" + newdates.value
+      message: "This is consultation data: \n" + newname.value + "\n" + newemail.value + "\n" + newmessage.value + "\n Dates:\n" + newdates.value
     };
   
     emailjs.send('service_t93tjtg', 'template_67wnjyd', tempParams, "e5QqTyM8AtPOxMClT").then(function(res){
@@ -25,18 +25,18 @@ newsend.addEventListener("click", () => {
         document.querySelector(".name-label").style = "color:black;";
     }
     if (newemail.value == "") {
-        document.querySelector(".email-label").innerHTML = "Email: Please fill out";
+        document.querySelector(".email-label").innerHTML = "Email/Phone: Please fill out";
         document.querySelector(".email-label").style = "color:red;";
     } else {
-        document.querySelector(".email-label").innerHTML = "Email:";
+        document.querySelector(".email-label").innerHTML = "Email or Phone Number:";
         document.querySelector(".email-label").style = "color:black;";
     }
-    if (newphone.value == "") {
-        document.querySelector(".phone-label").innerHTML = "Phone Number: Please fill out";
-        document.querySelector(".phone-label").style = "color:red;";
+    if (newmessage.value == "") {
+        document.querySelector(".message-label").innerHTML = "Message: Please fill out";
+        document.querySelector(".message-label").style = "color:red;";
     } else {
-        document.querySelector(".phone-label").innerHTML = "Phone Number:";
-        document.querySelector(".phone-label").style = "color:black;";
+        document.querySelector(".message-label").innerHTML = "Message:";
+        document.querySelector(".message-label").style = "color:black;";
     }
     if (newdates.value == "") {
         document.querySelector(".dates-label").innerHTML = "Days and Times: Please fill out";
@@ -45,11 +45,11 @@ newsend.addEventListener("click", () => {
         document.querySelector(".dates-label").innerHTML = "Days and Times:";
         document.querySelector(".dates-label").style = "color:black;";
     }
-    if (newname.value != "" && newemail.value != "" && newphone.value != "" && newdates.value != "") {
+    if (newname.value != "" && newemail.value != "" && newmessage.value != "" && newdates.value != "") {
         sendEmail();
         newname.value = "";
         newemail.value = "";
-        newphone.value = "",
+        newmessage.value = "",
         newdates.value = ""
     }
 });

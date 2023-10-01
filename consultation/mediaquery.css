@@ -42,6 +42,9 @@
     body {
         font-size: 50%;
     }
+    .box {
+        height: 95%;
+    }
     .info h2 {
         font-size: 1.1rem;
     }
@@ -49,8 +52,8 @@
     .info p {
         font-size: 0.8rem;
     }
-    .website:link, .website:visited, .send:link, .send:visited {
-        font-size: 1.1rem;
+    .send:link, .send:visited, .website:link, .website:visited {
+        font-size: 1rem;
     }
     .consultation-header {
         font-size: 1.55rem;
@@ -104,5 +107,15 @@
     .dates {
         font-size: 1.2rem;
         margin-bottom: 1rem;
+    }
+    .msg {
+        height: 4rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 400px;
     }
 }
