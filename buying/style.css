@@ -203,7 +203,7 @@ body {
   overflow: hidden;
   width: 100%;
   z-index: 2;
-  color: #777;
+      color: #777;
 }
 .footer__column {
   display: flex;
@@ -544,6 +544,7 @@ body {
     padding: 1rem 1.5rem;
     background-color: rgb(200, 200, 200);
     border: none;
+    color: black !important;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
     -webkit-appearance: none;
   }
