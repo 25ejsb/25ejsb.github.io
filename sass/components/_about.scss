@@ -3,18 +3,15 @@
     z-index: 3;
     overflow: hidden;
     position: relative;
-    height: 280rem;
+    height: 180rem;
+    @media only screen and (max-width: 1417px) {
+        height: 235rem;
+    }
+    @media only screen and (max-width: 440px) {
+        height: 250rem;
+    }
     &__page {
         height: 100%;
-    }
-    @media only screen and (max-width: 1130px) {
-        height: 310rem;
-    }
-    @media only screen and (max-width: 700px) {
-        height: 320rem;
-    }
-    @media only screen and (max-width: 614px) {
-        height: 400rem;
     }
     &__background {
         background-image: linear-gradient(to right bottom, rgba($black, 0.8), rgba($black, 0.3)), url(images/header1.jpg);
@@ -155,38 +152,12 @@
             font-size: 3rem;
         }
     }
-    &__accomplishments {
-        width: 100%;
-        height: 70rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 0 7%;
-        &--row {
-            width: 30rem;
-            margin: 0 1rem;
-            height: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            & h2 {
-                text-transform: uppercase;
-                background-image: linear-gradient(to right top, $light-orange, red);
-                -webkit-background-clip: text;
-                color: transparent;
-                font-size: 4rem;
-                margin-bottom: 1rem;
-            }
-        }
-    }
     &__image {
-        width: 30rem;
-        height: 100%;
+        width: 20rem;
+        height: 20rem;
         z-index: 2;
         border-radius: 1rem;
+        margin: 1rem;
         &--1 {
             background-image: url(/images/ranking.jpeg);
             background-size: 100% 100%;
@@ -218,11 +189,49 @@
             background-position: center;
         }
     }
-    &__topagentnetwork {
+    &__ranking {
         width: 100%;
-        height: 63rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__accomplishments {
+            width: 70rem;
+            @include respond(tab-port) {
+                width: 100%;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            &--row {
+                width: 30rem;
+                margin: 0 1rem;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                & h2 {
+                    text-transform: uppercase;
+                    background-image: linear-gradient(to right top, $light-orange, red);
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    font-size: 4rem;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+    &__topagentnetwork {
+        width: 70rem;
+        @include respond(tab-port) {
+            width: 90%;
+        }
+        height: 40rem;
         @media only screen and (max-width: 614px) {
-            height: 50rem;
+            height: 35rem;
         }
         margin-top: 1rem;
         display: flex;

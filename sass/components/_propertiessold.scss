@@ -7,7 +7,7 @@
         height: 80rem;
     }
     z-index: 2;
-    background-image: linear-gradient(to right bottom, rgba($dark-blue, 0.5), rgba($nice-blue, 0.3)), url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/boston-skyline-panoramic-boston-harbor-joann-vitali.jpg);
+    background-image: linear-gradient(to right bottom, rgba($dark-blue, 0.5), rgba($nice-blue, 0.3)), url(https://d15zjc2r4e8kr7.cloudfront.net/6199/Malden%20MA.jpeg);
     @include respond(phone) {
         background-image: linear-gradient(to right bottom, rgba($dark-blue, 0.5), rgba($nice-blue, 0.3)), url(https://mfiles.alphacoders.com/734/734226.jpg);
     }

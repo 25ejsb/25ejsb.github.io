@@ -119,7 +119,7 @@ body {
     text-transform: uppercase;
     font-size: 1.5rem;
     overflow: hidden;
-    border-radius: 2rem;
+    border-radius: 3rem;
     background-size: 250%;
     background-image: linear-gradient(to right, #f5ad14, #cc9114);
     transition: all .5s;
@@ -132,7 +132,7 @@ body {
 
 .website:link, .website:visited {
     width: 45%;
-    border-radius: 2rem;
+    border-radius: 3rem;
     height: 100%;
     text-decoration: none;
     font-size: 1.5rem;
@@ -164,6 +164,7 @@ body {
     font-size: 2.5rem;
     color: rgb(40, 40, 40);
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .contact-part {
