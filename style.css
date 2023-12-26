@@ -104,8 +104,8 @@ body {
 }
 @media only screen and (max-width: 36em) {
   .header-section__logo {
-    width: 40rem;
-    height: 20rem;
+    width: 30rem;
+    height: 15rem;
   }
 }
 .header-section__bg {
@@ -2502,6 +2502,11 @@ body {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.5);
   -webkit-appearance: none;
 }
+@media only screen and (max-width: 36em) {
+  .whats-new-section__section {
+    width: 42rem;
+  }
+}
 .whats-new-section__section h1 {
   font-size: 2.5rem;
   background-image: linear-gradient(to right bottom, red, orange);
@@ -2520,6 +2525,11 @@ body {
 .whats-new-section__img {
   height: 40rem;
   width: 40rem;
+}
+@media only screen and (max-width: 36em) {
+  .whats-new-section__img {
+    width: 35rem;
+  }
 }
 .whats-new-section__img img {
   height: 100%;
@@ -2586,6 +2596,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 36em) {
+  .whats-new-section__socials--title {
+    font-size: 4rem;
+  }
+}
 .whats-new-section__socials--sociallink {
   display: flex;
   justify-content: center;
@@ -2611,7 +2626,7 @@ body {
   width: 100%;
   height: 12.5rem;
   position: fixed;
-  padding: 0 5rem;
+  padding: 0 40px;
   top: 0;
   left: 0;
   z-index: 9999999999;
@@ -2624,6 +2639,11 @@ body {
 @media only screen and (max-width: 400px) {
   .nav {
     width: 400px;
+  }
+}
+@media only screen and (max-width: 36em) {
+  .nav {
+    padding: 0 20px;
   }
 }
 .nav__left {
@@ -2685,11 +2705,10 @@ body {
   display: none;
   background-color: white;
   position: fixed;
-  top: 30rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 10rem;
+  left: 0%;
   width: 100%;
-  height: 50%;
+  height: 40rem;
   z-index: -1;
   border-radius: 0 0 2rem 2rem;
   padding: 3% 3%;
