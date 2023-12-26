@@ -96,6 +96,7 @@
     .header-forward {
         top: 85%;
         left: 80%;
+        display: none;
     }
     .header h1 {
         display: none;
