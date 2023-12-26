@@ -97,6 +97,9 @@
         top: 85%;
         left: 80%;
     }
+    .header h1 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 400px) {
