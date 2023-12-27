@@ -589,12 +589,16 @@
             </div>
             <div class="footer__column2">
                 <p class="footer__para">This website was created by <a class="footer__link" href="https://eitanbrochstein.com">Eitan Brochstein</a>, and owned by <a class="footer__link" href="https://www.remax.com/real-estate-agents/adam-shulman-cambridge-ma/102169927">Adam Shulman</a>.</p>
+                <p class="screen">Screen Width:</p>
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script src="javascript/script.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script>
+            $(".screen").html("Screen Width: " + screen.width.toString() + "px")
+        </script>
         <script type="text/javascript">
             (function() {
                 emailjs.init("user_e5QqTyM8AtPOxMClT");
